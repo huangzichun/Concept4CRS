@@ -1,0 +1,253 @@
+{
+  "dialog_id": "22954",
+  "turn_id": 1,
+  "context": [
+    "Hi. Can you recommend a some family friendly movies?"
+  ],
+  "entity": [
+    "family"
+  ],
+  "rec": [
+    "Ferdinand (2017)",
+    "The Jungle Book (2016)",
+    "Honey, I Shrunk the Kids (1989)",
+    "Back to the Future (1985)"
+  ],
+  "resp": "Sure how about Ferdinand (2017) or The Jungle Book (2016) Honey, I Shrunk the Kids (1989) and Back to the Future (1985) are also good if you're not into animation",
+  "template": [
+    "Hi. Can you recommend a some <mask> friendly movies?",
+    "Sure how about <mask> or <mask> <mask> and <mask> are also good if you're not into <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22954",
+    "turn_id": 1,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific type of movie or genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I love movies that are inspiring and informative biographies, suspenseful and intense criminal films, and emotional and thought-provoking dramas. Do you have any recommendations that cover these genres?",
+        "entity": [],
+        "feelings": "I'm pleasantly surprised by unexpected movie recommendations that turn out to be enjoyable. I find joy in discovering unexpected and delightful film choices. This is exciting! I wonder what movie the recommender will suggest."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"The Insider (1999)\" for its intense and informative portrayal of a real-life whistleblower story.",
+        "entity": [
+          "The Insider (1999)"
+        ],
+        "rec_items": [
+          6090,
+          15177,
+          15163,
+          5059,
+          22514,
+          3000,
+          19668,
+          21782,
+          13203,
+          13184,
+          16959,
+          17896,
+          8764,
+          14234,
+          758,
+          17386,
+          16220,
+          3640,
+          3907,
+          15118,
+          13171,
+          22054,
+          9387,
+          15433,
+          16614,
+          11307,
+          16141,
+          19648,
+          3804,
+          2970,
+          5461,
+          13747,
+          6906,
+          2919,
+          16276,
+          11988,
+          9683,
+          22551,
+          2024,
+          9372,
+          17908,
+          23388,
+          10286,
+          3215,
+          12930,
+          11649,
+          9140,
+          24311,
+          18000,
+          636
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds interesting! Can you tell me more about \"The Insider (1999)\"?",
+        "entity": [
+          "The Insider (1999)"
+        ],
+        "feelings": "I'm pleasantly surprised by this unexpected recommendation. I didn't know \"The Insider\" covered a real-life whistleblower story. I wonder if it's as intense and informative as the recommender says. I'll ask for more details."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Insider (1999)\" is a gripping biographical drama based on the true story of Jeffrey Wigand, a former tobacco industry executive who becomes a whistleblower. The film delves into the intense legal and ethical battles he faces as he exposes the industry's deceptive practices. It's a thought-provoking and intense portrayal of a real-life struggle for truth and justice.",
+        "entity": [],
+        "rec_items": [
+          6090,
+          3689,
+          17599,
+          14578,
+          16614,
+          3215,
+          16717,
+          5754,
+          11671,
+          16048,
+          11677,
+          6615,
+          7473,
+          5606,
+          15095,
+          7875,
+          23890,
+          16141,
+          823,
+          14114,
+          16029,
+          7821,
+          4623,
+          23298,
+          20378,
+          22653,
+          16959,
+          14311,
+          24526,
+          3907,
+          12068,
+          2712,
+          6963,
+          15177,
+          19400,
+          13973,
+          15530,
+          14618,
+          18087,
+          11649,
+          13243,
+          16276,
+          1283,
+          6906,
+          16810,
+          16392,
+          3440,
+          11358,
+          18649,
+          22175
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, \"The Insider (1999)\" sounds like a really intense and informative movie. I'm definitely interested in watching it. Thanks for the recommendation! [END]",
+        "entity": [],
+        "feelings": "I'm pleasantly surprised by this unexpected recommendation. \"The Insider (1999)\" seems to cover the intense criminal aspect with the whistleblower story. I'm intrigued by the thought-provoking and informative elements as well. The recommender did a great job understanding my preferences."
+      }
+    ],
+    "entity": [
+      "family",
+      "The Insider (1999)"
+    ],
+    "rec": [
+      "Ferdinand (2017)",
+      "The Jungle Book (2016)",
+      "Honey, I Shrunk the Kids (1989)",
+      "Back to the Future (1985)"
+    ],
+    "resp": "Sure how about Ferdinand (2017) or The Jungle Book (2016) Honey, I Shrunk the Kids (1989) and Back to the Future (1985) are also good if you're not into animation",
+    "template": [
+      "Hi. Can you recommend a some <mask> friendly movies?",
+      "Sure how about <mask> or <mask> <mask> and <mask> are also good if you're not into <mask>"
+    ],
+    "attributes": [
+      "biography",
+      "crime",
+      "drama"
+    ],
+    "profile": [
+      "You are pleasantly surprised by unexpected movie recommendations that turn out to be enjoyable. As a child, you find joy in discovering unexpected and delightful film choices."
+    ]
+  }
+}

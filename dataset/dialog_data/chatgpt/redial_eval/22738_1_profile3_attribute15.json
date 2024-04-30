@@ -1,0 +1,253 @@
+{
+  "dialog_id": "22738",
+  "turn_id": 1,
+  "context": [
+    "Hi there. Can you suggest some good sci-fi movie? I love Star Trek (2009) and Star Wars (1977) , but maybe something outside of those genres?"
+  ],
+  "entity": [
+    "sci-fi",
+    "Star Trek (2009)",
+    "Star Wars (1977)"
+  ],
+  "rec": [
+    "The Abyss (1989)"
+  ],
+  "resp": "Well, I liked The Abyss (1989)",
+  "template": [
+    "Hi there. Can you suggest some good <mask> movie? I love <mask> and <mask> , but maybe something outside of those genres?",
+    "Well, I liked <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22738",
+    "turn_id": 1,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific type of movie or TV show?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for a movie that's both funny and entertaining, emotional and thought-provoking, and heartwarming and wholesome. Do you have any recommendations that fit all these criteria?",
+        "entity": [],
+        "feelings": "I'm so excited to discover new movies and get some awesome recommendations! I can't wait to find a humorous and entertaining flick, an emotional and thought-provoking drama, and a heartwarming and wholesome family movie. Let's see what the recommender suggests!"
+      },
+      {
+        "role": "assistant",
+        "content": "I recommend \"Good Will Hunting (1997)\" for its mix of humor, emotional depth, and thought-provoking themes.",
+        "entity": [
+          "Good Will Hunting (1997)"
+        ],
+        "rec_items": [
+          14722,
+          17143,
+          6699,
+          10353,
+          18159,
+          20321,
+          24591,
+          20238,
+          17746,
+          10753,
+          1893,
+          22209,
+          23506,
+          12552,
+          20389,
+          18615,
+          3640,
+          5059,
+          11892,
+          4224,
+          5488,
+          4272,
+          5528,
+          4085,
+          9160,
+          21678,
+          22991,
+          18325,
+          18000,
+          6514,
+          5759,
+          4785,
+          9387,
+          5420,
+          23220,
+          2660,
+          13021,
+          15632,
+          23266,
+          24534,
+          22077,
+          3927,
+          4464,
+          13714,
+          21221,
+          5169,
+          19618,
+          13916,
+          19992,
+          20214
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds interesting! Can you tell me more about \"Good Will Hunting (1997)\"? What's the story about?",
+        "entity": [
+          "Good Will Hunting (1997)"
+        ],
+        "feelings": "I'm excited to learn more about \"Good Will Hunting (1997)\"! I hope it has the right balance of humor, emotion, and heartwarming moments. Let's see if it's the perfect fit for me."
+      },
+      {
+        "role": "assistant",
+        "content": "\"Good Will Hunting\" follows the story of a young janitor at MIT who has an extraordinary gift for mathematics. As he struggles with his past and his potential, he forms a unique bond with a therapist who helps him confront his demons and realize his true potential. It's a touching and thought-provoking film with plenty of humor and heart.",
+        "entity": [],
+        "rec_items": [
+          18159,
+          5528,
+          21803,
+          6514,
+          16810,
+          16959,
+          11993,
+          1893,
+          23374,
+          11517,
+          16809,
+          13859,
+          17435,
+          189,
+          7434,
+          23808,
+          13648,
+          24478,
+          16392,
+          7875,
+          3640,
+          14722,
+          6699,
+          24302,
+          15769,
+          11191,
+          21292,
+          17317,
+          4137,
+          17143,
+          17925,
+          21705,
+          11677,
+          13209,
+          18615,
+          14870,
+          14464,
+          18649,
+          5078,
+          16666,
+          5759,
+          18491,
+          11649,
+          18487,
+          18240,
+          16315,
+          18366,
+          9426,
+          22899,
+          19331
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds like a really touching and thought-provoking film with plenty of humor and heart. I'm excited to watch \"Good Will Hunting (1997)\"! [END]",
+        "entity": [
+          "Good Will Hunting (1997)"
+        ],
+        "feelings": "I love the idea of a janitor with a gift for mathematics forming a unique bond with a therapist. It sounds emotional and thought-provoking, and I can imagine it being heartwarming too. I'm excited to watch \"Good Will Hunting (1997)\"! [END]"
+      }
+    ],
+    "entity": [
+      "Star Trek (2009)",
+      "Star Wars (1977)",
+      "Good Will Hunting (1997)",
+      "sci-fi"
+    ],
+    "rec": [
+      "The Abyss (1989)"
+    ],
+    "resp": "Well, I liked The Abyss (1989)",
+    "template": [
+      "Hi there. Can you suggest some good <mask> movie? I love <mask> and <mask> , but maybe something outside of those genres?",
+      "Well, I liked <mask>"
+    ],
+    "attributes": [
+      "comedy",
+      "drama",
+      "family"
+    ],
+    "profile": [
+      "You are easily excited, discovering new movies and eagerly anticipating enjoyable recommendations. As a child, you embrace the joy of exploring new cinematic experiences."
+    ]
+  }
+}

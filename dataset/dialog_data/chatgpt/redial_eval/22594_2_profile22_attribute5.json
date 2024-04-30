@@ -1,0 +1,253 @@
+{
+  "dialog_id": "22594",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hi! What is your favourite movie?",
+    "I really like war movies like Darkest Hour (2017)"
+  ],
+  "entity": [
+    "war",
+    "Darkest Hour (2017)"
+  ],
+  "rec": [
+    "Dunkirk (2017)"
+  ],
+  "resp": "Me too! Have you seen Dunkirk (2017) ? I haven't seen the original yet though.",
+  "template": [
+    "Hi! What is your favourite movie?",
+    "I really like <mask> movies like <mask>",
+    "Me too! Have you seen <mask> ? I haven't seen the original yet though."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22594",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'd be happy to help you with a recommendation. Do you have a preference for a movie or TV show?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for a movie that's thrilling, humorous, and suspenseful all at the same time. Do you have any recommendations?",
+        "entity": [],
+        "feelings": "I'm so excited to discover new movies and get some awesome recommendations! Can't wait to find a thrilling, humorous, and suspenseful movie to watch."
+      },
+      {
+        "role": "assistant",
+        "content": "I recommend \"High Anxiety (1977)\" for a thrilling, humorous, and suspenseful movie experience.",
+        "entity": [
+          "High Anxiety (1977)"
+        ],
+        "rec_items": [
+          10046,
+          24311,
+          9522,
+          16959,
+          23147,
+          17386,
+          7362,
+          9780,
+          23094,
+          18863,
+          636,
+          17677,
+          13313,
+          23755,
+          4623,
+          14977,
+          19668,
+          15756,
+          22551,
+          22758,
+          3804,
+          15399,
+          15257,
+          11799,
+          12195,
+          19596,
+          11649,
+          6277,
+          3751,
+          16566,
+          23294,
+          4679,
+          22061,
+          490,
+          3215,
+          13061,
+          18920,
+          21241,
+          16954,
+          22250,
+          9876,
+          21362,
+          15163,
+          17685,
+          24443,
+          21507,
+          6782,
+          16715,
+          10091,
+          396
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"High Anxiety (1977)\"? I want to know if it has the thrilling action I'm looking for.",
+        "entity": [
+          "High Anxiety (1977)"
+        ],
+        "feelings": "I'm not sure if \"High Anxiety (1977)\" will have the intense action I'm looking for. I hope the next recommendation will be more thrilling. The recommender seems friendly and eager to help, but I need something with more adrenaline."
+      },
+      {
+        "role": "assistant",
+        "content": "\"High Anxiety (1977)\" is a comedy thriller directed by and starring Mel Brooks. It's a parody of Alfred Hitchcock's films and includes thrilling action with a humorous twist. It's a great choice for a mix of thrills and laughs!",
+        "entity": [],
+        "rec_items": [
+          23147,
+          19162,
+          24311,
+          22061,
+          11066,
+          23755,
+          6277,
+          11947,
+          11799,
+          5990,
+          21245,
+          21904,
+          3012,
+          396,
+          16715,
+          16566,
+          10629,
+          19386,
+          16443,
+          9249,
+          13078,
+          3738,
+          3519,
+          22250,
+          12390,
+          4679,
+          22796,
+          7835,
+          18256,
+          22551,
+          8086,
+          23050,
+          18900,
+          2358,
+          8820,
+          6020,
+          17553,
+          10130,
+          23094,
+          16959,
+          13300,
+          24554,
+          7729,
+          15756,
+          4047,
+          7362,
+          13005,
+          19905,
+          14837,
+          6884
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds awesome! I'm definitely up for a thrilling and humorous movie like \"High Anxiety (1977)\". I can't wait to experience the mix of thrills and laughs. Thanks for the recommendation! [END]",
+        "entity": [],
+        "feelings": "I'm excited to explore \"High Anxiety (1977)\"! It sounds like it has the thrilling action and humor I'm looking for. I can't wait to watch it and experience the mix of thrills and laughs. The recommender did a great job understanding my preferences and recommending a movie that fits them perfectly."
+      }
+    ],
+    "entity": [
+      "High Anxiety (1977)",
+      "Darkest Hour (2017)",
+      "war"
+    ],
+    "rec": [
+      "Dunkirk (2017)"
+    ],
+    "resp": "Me too! Have you seen Dunkirk (2017) ? I haven't seen the original yet though.",
+    "template": [
+      "Hi! What is your favourite movie?",
+      "I really like <mask> movies like <mask>",
+      "Me too! Have you seen <mask> ? I haven't seen the original yet though."
+    ],
+    "attributes": [
+      "action",
+      "comedy",
+      "crime"
+    ],
+    "profile": [
+      "You are easily excited, discovering new movies and eagerly anticipating enjoyable recommendations. As a teenager, you embrace the thrill of exploring new cinematic adventures."
+    ]
+  }
+}

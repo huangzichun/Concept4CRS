@@ -1,0 +1,251 @@
+{
+  "dialog_id": "21099",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hi What type of movies do you like?",
+    "IHello i like comedies! i like goofy movies Do you have a recommendation"
+  ],
+  "entity": [
+    "comedy"
+  ],
+  "rec": [
+    "Get Him to the Greek (2010)"
+  ],
+  "resp": "Have you see Get Him to the Greek (2010) . I really enjoyed that one!",
+  "template": [
+    "Hi What type of movies do you like?",
+    "IHello i like <mask>! i like goofy movies Do you have a recommendation",
+    "Have you see <mask> . I really enjoyed that one!"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21099",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a movie genre or a specific movie you'd like a recommendation for?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          12723,
+          11988,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2675,
+          2755,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for a movie that combines thrilling action, exciting adventure, and gripping suspense. Do you have any recommendations that fit these criteria?",
+        "entity": [],
+        "feelings": "I enjoy discovering hidden gems and underrated movies. It's always a delight to stumble upon overlooked cinematic treasures. I hope to find a thrilling action movie, an exciting adventure movie, and a suspenseful thriller with gripping suspense. Let's see what the recommender has in store for me."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"Mission: Impossible.\" It combines thrilling action, exciting adventure, and gripping suspense.",
+        "entity": [
+          "Mission: Impossible"
+        ],
+        "rec_items": [
+          21731,
+          2693,
+          15756,
+          19668,
+          23094,
+          17812,
+          18936,
+          21156,
+          10253,
+          17103,
+          8862,
+          24614,
+          549,
+          16619,
+          10599,
+          12724,
+          17984,
+          15257,
+          21274,
+          14076,
+          16566,
+          18900,
+          15399,
+          3992,
+          18672,
+          14977,
+          23793,
+          13768,
+          14335,
+          14878,
+          14847,
+          22551,
+          467,
+          8644,
+          4932,
+          2438,
+          24068,
+          2623,
+          2580,
+          11786,
+          22576,
+          19309,
+          8138,
+          6277,
+          16285,
+          23218,
+          15163,
+          13061,
+          21791,
+          16959
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"Mission: Impossible\"? I'd like to know how it combines thrilling action, exciting adventure, and gripping suspense.",
+        "entity": [
+          "Mission: Impossible"
+        ],
+        "feelings": "I'm intrigued by \"Mission: Impossible,\" but I need more details to see if it meets all my preferences. The recommender seems knowledgeable, but I'll have to dig deeper to make sure this movie fits what I'm looking for."
+      },
+      {
+        "role": "assistant",
+        "content": "\"Mission: Impossible\" is a high-octane action film that follows Ethan Hunt, a skilled operative of the Impossible Mission Force, as he takes on dangerous missions filled with thrilling action sequences, heart-pounding suspense, and exhilarating adventure. The movie is known for its intense stunts, intricate heists, and unexpected plot twists, making it a perfect blend of action, adventure, and suspense.",
+        "entity": [],
+        "rec_items": [
+          21731,
+          17812,
+          10253,
+          18936,
+          16720,
+          19124,
+          11161,
+          21894,
+          5933,
+          17984,
+          8644,
+          17103,
+          2580,
+          15257,
+          7186,
+          14280,
+          24596,
+          15756,
+          19309,
+          12724,
+          8862,
+          19668,
+          14335,
+          21299,
+          14076,
+          4070,
+          16285,
+          16535,
+          15530,
+          2693,
+          549,
+          18672,
+          21156,
+          24614,
+          10173,
+          3400,
+          14847,
+          24419,
+          8380,
+          23068,
+          14689,
+          9271,
+          22175,
+          17891,
+          15648,
+          9573,
+          22748,
+          17630,
+          17129,
+          21667
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "That sounds fantastic! I love the idea of intense stunts, unexpected plot twists, and heart-pounding suspense. \"Mission: Impossible\" seems to be exactly what I'm looking for. I'll definitely watch it. Thank you! [END]",
+        "entity": [],
+        "feelings": "I appreciate the recommender's effort in suggesting \"Mission: Impossible.\" The movie seems to have the thrilling action, exciting adventure, and gripping suspense that I'm looking for. I think the recommender did a great job understanding my preferences. I'm excited to watch \"Mission: Impossible.\""
+      }
+    ],
+    "entity": [
+      "comedy",
+      "Mission: Impossible"
+    ],
+    "rec": [
+      "Get Him to the Greek (2010)"
+    ],
+    "resp": "Have you see Get Him to the Greek (2010) . I really enjoyed that one!",
+    "template": [
+      "Hi What type of movies do you like?",
+      "IHello i like <mask>! i like goofy movies Do you have a recommendation",
+      "Have you see <mask> . I really enjoyed that one!"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "thriller"
+    ],
+    "profile": [
+      "You experience delight in discovering hidden gems or underrated movies through the recommendations. As a senior, you appreciate stumbling upon overlooked cinematic treasures."
+    ]
+  }
+}

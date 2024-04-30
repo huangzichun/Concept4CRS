@@ -1,0 +1,263 @@
+{
+  "dialog_id": "23024",
+  "turn_id": 3,
+  "context": [
+    "Hi i like romantic comedies do you know some good ones?",
+    "When Harry Met Sally... (1989) and Love Actually (2003) are classics.",
+    "Yes i know them both great ones"
+  ],
+  "entity": [
+    "romance",
+    "comedy",
+    "When Harry Met Sally... (1989)",
+    "Love Actually (2003)"
+  ],
+  "rec": [
+    "Clueless (1995)",
+    "While You Were Sleeping (1995)"
+  ],
+  "resp": "What about Clueless (1995) and While You Were Sleeping (1995)",
+  "template": [
+    "Hi i like <mask> <mask> do you know some good ones?",
+    "<mask> and <mask> are classics.",
+    "Yes i know them both great ones",
+    "What about <mask> and <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23024",
+    "turn_id": 3,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! Do you have a preference for a movie or TV show genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for a movie that's thrilling, adventurous, and magical all at once. Do you have any recommendations?",
+        "entity": [],
+        "feelings": "I hope I can find a movie that's thrilling, adventurous, and magical all at once. I always struggle with finding the right movie, but I hope this recommender can help me out. I just want to enjoy a movie without any technical issues or confusion."
+      },
+      {
+        "role": "assistant",
+        "content": "I recommend \"The Sorcerer's Apprentice (2010)\" for a thrilling, adventurous, and magical experience!",
+        "entity": [
+          "The Sorcerer's Apprentice (2010)"
+        ],
+        "rec_items": [
+          13061,
+          17685,
+          21525,
+          15724,
+          2693,
+          1490,
+          23506,
+          23697,
+          15627,
+          11128,
+          10937,
+          19668,
+          22281,
+          13768,
+          6062,
+          23793,
+          14064,
+          21230,
+          21230,
+          6959,
+          15163,
+          1572,
+          1572,
+          18373,
+          13346,
+          6706,
+          15961,
+          13861,
+          6277,
+          21144,
+          17080,
+          18442,
+          402,
+          17677,
+          16954,
+          15734,
+          16183,
+          16960,
+          19646,
+          1991,
+          14878,
+          12724,
+          7851,
+          12631,
+          7971,
+          1371,
+          2623,
+          23094,
+          24614,
+          24432
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"The Sorcerer's Apprentice (2010)\"? I'd like to know what makes it thrilling, adventurous, and magical.",
+        "entity": [
+          "The Sorcerer's Apprentice (2010)"
+        ],
+        "feelings": "I'm frustrated with the technical issues, but I hope this movie recommendation will be worth it. I hope it's thrilling, adventurous, and magical all at once. Let's see if this movie meets my preferences."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Sorcerer's Apprentice (2010)\" is a fantasy film that combines thrilling action, adventurous quests, and magical elements. It follows a young sorcerer's apprentice who is thrust into a battle against dark forces, leading to exciting and daring adventures. The movie is filled with spellbinding magic, intense action sequences, and a sense of wonder, making it a thrilling and enchanting experience.",
+        "entity": [],
+        "rec_items": [
+          17685,
+          15724,
+          24432,
+          22281,
+          23506,
+          21144,
+          13396,
+          2102,
+          22575,
+          6959,
+          23697,
+          11128,
+          21525,
+          7021,
+          23741,
+          7971,
+          13147,
+          8929,
+          13410,
+          889,
+          18442,
+          10870,
+          19759,
+          16258,
+          19646,
+          16960,
+          16986,
+          15051,
+          4524,
+          18622,
+          5928,
+          5928,
+          6615,
+          2693,
+          19117,
+          18053,
+          18433,
+          17677,
+          1337,
+          23172,
+          18075,
+          18865,
+          11138,
+          12327,
+          13002,
+          14064,
+          11803,
+          13346,
+          15734,
+          14803
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds really exciting! I love the idea of thrilling action, adventurous quests, and magical elements all in one movie. I think \"The Sorcerer's Apprentice (2010)\" is exactly what I'm looking for. I'll definitely watch it. [END]",
+        "entity": [
+          "The Sorcerer's Apprentice (2010)"
+        ],
+        "feelings": "I feel frustrated with the technical issues, but \"The Sorcerer's Apprentice (2010)\" sounds like it has the thrilling action, adventurous quests, and magical elements I'm looking for. I'm intrigued by the sense of wonder and intense action sequences. I think the recommender did a good job explaining how the movie meets my preferences."
+      }
+    ],
+    "entity": [
+      "When Harry Met Sally... (1989)",
+      "comedy",
+      "Love Actually (2003)",
+      "The Sorcerer's Apprentice (2010)",
+      "romance"
+    ],
+    "rec": [
+      "Clueless (1995)",
+      "While You Were Sleeping (1995)"
+    ],
+    "resp": "What about Clueless (1995) and While You Were Sleeping (1995)",
+    "template": [
+      "Hi i like <mask> <mask> do you know some good ones?",
+      "<mask> and <mask> are classics.",
+      "Yes i know them both great ones",
+      "What about <mask> and <mask>"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "profile": [
+      "You feel frustrated when dealing with technical issues or difficulties in navigating the recommendation system. As a child, you encounter challenges in using the system effectively."
+    ]
+  }
+}

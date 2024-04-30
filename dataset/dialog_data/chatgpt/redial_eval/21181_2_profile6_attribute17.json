@@ -1,0 +1,253 @@
+{
+  "dialog_id": "21181",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hi there! What kind of movies do you like?",
+    "Hello. I like science fiction. Any suggestions?"
+  ],
+  "entity": [
+    "action"
+  ],
+  "rec": [
+    "Event Horizon (1997)",
+    "The Matrix (1999)"
+  ],
+  "resp": "Sure! Event Horizon (1997) is perfect sci-fi/horror, and I love The Matrix (1999) I have a couple others too",
+  "template": [
+    "Hi there! What kind of movies do you like?",
+    "Hello. I like science <mask>. Any suggestions?",
+    "Sure! <mask> is perfect <mask>/<mask>, and I love <mask> I have a couple others too"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21181",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! Do you have a preference for a movie or TV show genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I love movies that are inspiring and informative, emotional and thought-provoking, and also informative and enlightening. Do you have any recommendations for me?",
+        "entity": [],
+        "feelings": "I'm pleasantly surprised by unexpected movie recommendations that turn out to be enjoyable. I find delight in discovering new and unexpected films. I hope the recommender suggests something inspiring and informative, emotional and thought-provoking, and also informative and enlightening. Let's see what they recommend."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"Julie & Julia (2009)\" as it is an inspiring and informative movie that is also emotional and thought-provoking.",
+        "entity": [
+          "Julie & Julia (2009)"
+        ],
+        "rec_items": [
+          13747,
+          13061,
+          5059,
+          18615,
+          14234,
+          18386,
+          15163,
+          20846,
+          17746,
+          11988,
+          17896,
+          20321,
+          13171,
+          18159,
+          17462,
+          16220,
+          9387,
+          6777,
+          13768,
+          15177,
+          758,
+          3000,
+          16666,
+          4224,
+          19668,
+          3927,
+          18000,
+          10937,
+          21678,
+          17178,
+          23506,
+          13362,
+          23201,
+          4464,
+          15433,
+          14481,
+          5482,
+          10963,
+          24591,
+          10353,
+          6514,
+          6501,
+          4540,
+          23450,
+          16959,
+          9539,
+          21782,
+          3640,
+          21962,
+          5689
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"Julie & Julia (2009)\"? I'd like to know how it fits into the genres I enjoy.",
+        "entity": [
+          "Julie & Julia (2009)"
+        ],
+        "feelings": "I'm pleasantly surprised by this recommendation. I didn't expect \"Julie & Julia\" to cover all my preferred genres. I'm curious to learn more about this movie. The recommender seems to understand my preferences well."
+      },
+      {
+        "role": "assistant",
+        "content": "\"Julie & Julia (2009)\" is a biographical comedy-drama film that tells the story of Julie Powell, who decides to cook all 524 recipes in Julia Child's cookbook in one year, while intertwining with the life of Julia Child herself. It is inspiring and informative as it showcases the determination of Julie Powell and the culinary journey of Julia Child. The emotional and thought-provoking elements come from the personal struggles and triumphs of both women. The movie is also enlightening as it provides insight into the world of cooking and the impact of Julia Child on the culinary world.",
+        "entity": [],
+        "rec_items": [
+          5059,
+          10586,
+          22991,
+          19349,
+          18532,
+          1379,
+          17199,
+          8541,
+          13747,
+          17178,
+          17581,
+          22933,
+          24172,
+          16809,
+          17896,
+          21065,
+          9003,
+          300,
+          6501,
+          17364,
+          15433,
+          13701,
+          14722,
+          4085,
+          23687,
+          21221,
+          12552,
+          17848,
+          14875,
+          21990,
+          15230,
+          22009,
+          3927,
+          15163,
+          11875,
+          15016,
+          18000,
+          19316,
+          4464,
+          24526,
+          17555,
+          9539,
+          82,
+          16191,
+          6032,
+          10963,
+          2306,
+          18225,
+          1021,
+          10215
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, \"Julie & Julia (2009)\" sounds fascinating! I love the idea of intertwining the stories of Julie Powell and Julia Child. It definitely fits into the genres I enjoy. I'll definitely watch it. Thank you for the recommendation! [END]",
+        "entity": [],
+        "feelings": "I'm pleasantly surprised by this recommendation. It seems to cover the inspiring and informative biography, emotional and thought-provoking drama, and informative and enlightening history movie genres. I think the recommender did a great job understanding my preferences. I'm excited to watch \"Julie & Julia (2009)\"!"
+      }
+    ],
+    "entity": [
+      "Julie & Julia (2009)",
+      "action"
+    ],
+    "rec": [
+      "Event Horizon (1997)",
+      "The Matrix (1999)"
+    ],
+    "resp": "Sure! Event Horizon (1997) is perfect sci-fi/horror, and I love The Matrix (1999) I have a couple others too",
+    "template": [
+      "Hi there! What kind of movies do you like?",
+      "Hello. I like science <mask>. Any suggestions?",
+      "Sure! <mask> is perfect <mask>/<mask>, and I love <mask> I have a couple others too"
+    ],
+    "attributes": [
+      "biography",
+      "drama",
+      "history"
+    ],
+    "profile": [
+      "You are pleasantly surprised by unexpected movie recommendations that turn out to be enjoyable. As a senior, you find delight in discovering new and unexpected films."
+    ]
+  }
+}

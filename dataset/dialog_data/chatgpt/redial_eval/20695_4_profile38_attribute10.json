@@ -1,0 +1,261 @@
+{
+  "dialog_id": "20695",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hi what kind of movies do you like?",
+    "Funny movies",
+    "Great. Have you seen Girls Trip (2017) I love that movie. I laughed from beginning to end.",
+    "I have, i liked it a lot. Reminded me of Bridesmaids (2011)"
+  ],
+  "entity": [
+    "Girls Trip (2017)",
+    "Bridesmaids (2011)"
+  ],
+  "rec": [
+    "Hangover (2010)"
+  ],
+  "resp": "Yes, it also reminded me of Hangover (2010)",
+  "template": [
+    "Hi what kind of movies do you like?",
+    "Funny movies",
+    "Great. Have you seen <mask> I love that movie. I laughed from beginning to end.",
+    "I have, i liked it a lot. Reminded me of <mask>",
+    "Yes, it also reminded me of <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20695",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific genre or type of movie?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm into thrilling and adrenaline-pumping action movies, exciting and daring adventure movies, and emotional and thought-provoking dramas. Do you have any recommendations that cover all these genres?",
+        "entity": [],
+        "feelings": "I'm feeling excited to discover new movies today. I hope to find something thrilling, adventurous, and emotionally engaging. Let's see what the recommender suggests."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"Mission: Impossible\" for its thrilling action, daring adventure, and emotional drama.",
+        "entity": [
+          "Mission: Impossible"
+        ],
+        "rec_items": [
+          21731,
+          2693,
+          13061,
+          2623,
+          19668,
+          23094,
+          18000,
+          14977,
+          23793,
+          18936,
+          12724,
+          22073,
+          17812,
+          15163,
+          3992,
+          21156,
+          18682,
+          5689,
+          13768,
+          6277,
+          14878,
+          17984,
+          4932,
+          15756,
+          17129,
+          22551,
+          10152,
+          467,
+          24614,
+          4679,
+          19851,
+          12399,
+          15399,
+          12973,
+          16566,
+          13313,
+          8862,
+          549,
+          21739,
+          23532,
+          2675,
+          10253,
+          9271,
+          15879,
+          23760,
+          3804,
+          14627,
+          10937,
+          24311,
+          19057
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"Mission: Impossible\"? I'd like to know about the thrilling action, daring adventure, and emotional drama in the movie.",
+        "entity": [
+          "Mission: Impossible"
+        ],
+        "feelings": "I'm not sure if \"Mission: Impossible\" covers all the genres I'm looking for. I need to ask for more details about the movie to make sure it meets my preferences. The recommender seems confident in their recommendation, but I'll have to gather more information before making a decision."
+      },
+      {
+        "role": "assistant",
+        "content": "\"Mission: Impossible\" is a thrilling action movie that follows Ethan Hunt and his team as they take on daring and dangerous missions. The film is filled with adrenaline-pumping action sequences, including high-stakes heists and intense combat scenes. The movie also delves into the emotional and personal struggles of the characters, adding depth and drama to the story. Overall, \"Mission: Impossible\" offers a perfect blend of thrilling action, daring adventure, and emotional drama.",
+        "entity": [],
+        "rec_items": [
+          21731,
+          17812,
+          18936,
+          10253,
+          16720,
+          19124,
+          21894,
+          11161,
+          5933,
+          17984,
+          8644,
+          14689,
+          17129,
+          17103,
+          24572,
+          24419,
+          14335,
+          12399,
+          12724,
+          6277,
+          2580,
+          7186,
+          15257,
+          2693,
+          16535,
+          24596,
+          5635,
+          6564,
+          15756,
+          19668,
+          4801,
+          19309,
+          8862,
+          14245,
+          15802,
+          14280,
+          4932,
+          9271,
+          15530,
+          3400,
+          9573,
+          22175,
+          16459,
+          15648,
+          22748,
+          3197,
+          21782,
+          24614,
+          21667,
+          9850
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds like exactly what I'm looking for! I'll definitely watch \"Mission: Impossible\". Thanks for the recommendation! [END]",
+        "entity": [
+          "Mission: Impossible"
+        ],
+        "feelings": "I think \"Mission: Impossible\" sounds like it has the thrilling action, daring adventure, and emotional drama that I'm looking for. The recommender did a great job understanding my preferences. I feel confident in their recommendation."
+      }
+    ],
+    "entity": [
+      "Mission: Impossible",
+      "Girls Trip (2017)",
+      "Bridesmaids (2011)"
+    ],
+    "rec": [
+      "Hangover (2010)"
+    ],
+    "resp": "Yes, it also reminded me of Hangover (2010)",
+    "template": [
+      "Hi what kind of movies do you like?",
+      "Funny movies",
+      "Great. Have you seen <mask> I love that movie. I laughed from beginning to end.",
+      "I have, i liked it a lot. Reminded me of <mask>",
+      "Yes, it also reminded me of <mask>"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "drama"
+    ],
+    "profile": [
+      "You develop trust in the accuracy and relevance of the movie recommendations over time. As an adult, you gradually gain confidence in the system's ability to suggest suitable films."
+    ]
+  }
+}

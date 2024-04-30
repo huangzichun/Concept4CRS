@@ -1,0 +1,241 @@
+{
+  "dialog_id": 4038,
+  "turn_id": 1,
+  "context": [
+    "Do you have a book by the name of The Great Gatsby?"
+  ],
+  "entity": [
+    "The Great Gatsby"
+  ],
+  "rec": [
+    "The Great Gatsby"
+  ],
+  "resp": "The Great Gatsby is a novel written by Scott Fitzgerald. Were you looking for recommendations for books like it?",
+  "simulator_dialog": {
+    "dialog_id": 4038,
+    "turn_id": 1,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific genre or type of book?",
+        "entity": [],
+        "rec_items": [
+          8696,
+          12434,
+          11871,
+          12453,
+          11798,
+          12322,
+          11394,
+          10036,
+          8790,
+          12091,
+          9895,
+          9475,
+          10040,
+          8950,
+          12455,
+          10268,
+          12156,
+          10023,
+          9732,
+          9851,
+          9989,
+          202,
+          11841,
+          11770,
+          12087,
+          1030,
+          10126,
+          12102,
+          113,
+          11768,
+          9974,
+          12409,
+          10016,
+          10064,
+          11416,
+          9772,
+          9969,
+          11751,
+          11646,
+          12191,
+          11943,
+          8684,
+          11771,
+          15,
+          3191,
+          9938,
+          11843,
+          10252,
+          12116,
+          9668
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I love lighthearted comedy, humorous comedy-drama, and intense drama. Do you have any movie recommendations that cover these genres?",
+        "entity": [],
+        "feelings": "I enjoy discovering films that cater to my preferences. I hope the recommender can recommend some great movies for me."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"The Hitchhiker's Guide to the Galaxy\" for a lighthearted comedy with a touch of humor and drama.",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "rec_items": [
+          9954,
+          6977,
+          10431,
+          12322,
+          6980,
+          11359,
+          15,
+          11363,
+          12117,
+          11510,
+          10396,
+          11270,
+          11548,
+          11126,
+          11366,
+          687,
+          10487,
+          11306,
+          10166,
+          11351,
+          9721,
+          982,
+          10653,
+          7939,
+          10938,
+          10446,
+          9949,
+          10423,
+          10488,
+          1704,
+          10386,
+          6975,
+          11268,
+          11354,
+          11460,
+          11079,
+          11367,
+          11233,
+          468,
+          10963,
+          11571,
+          8551,
+          11561,
+          11141,
+          10399,
+          11282,
+          10923,
+          11352,
+          11229,
+          10788
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"The Hitchhiker's Guide to the Galaxy\"? I'd like to know if it covers lighthearted comedy, humorous comedy-drama, and intense drama.",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "feelings": "I'm glad the recommender suggested a lighthearted comedy with humor and drama. I'm curious to know more about \"The Hitchhiker's Guide to the Galaxy\" to see if it aligns with my preferences."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Hitchhiker's Guide to the Galaxy\" is a lighthearted science fiction comedy that combines humor, adventure, and a touch of drama. It follows the misadventures of an ordinary human, Arthur Dent, as he travels through space with an eclectic group of characters, encountering absurd and humorous situations along the way. The story has elements of lighthearted comedy, humorous comedy-drama, and a hint of intense drama, making it an entertaining and engaging read.",
+        "entity": [],
+        "rec_items": [
+          6977,
+          9788,
+          4731,
+          12325,
+          10386,
+          11920,
+          10431,
+          10919,
+          9712,
+          10332,
+          10414,
+          9954,
+          10766,
+          11548,
+          10446,
+          11244,
+          11335,
+          8169,
+          9307,
+          10316,
+          11268,
+          1704,
+          9377,
+          10746,
+          10334,
+          11372,
+          6484,
+          6805,
+          9354,
+          10653,
+          10427,
+          15,
+          10494,
+          11013,
+          10487,
+          10107,
+          11460,
+          10110,
+          12193,
+          196,
+          11565,
+          11366,
+          10488,
+          10182,
+          9882,
+          11306,
+          10432,
+          11469,
+          8469,
+          10481
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds like a great recommendation! I'm excited to watch \"The Hitchhiker's Guide to the Galaxy.\" Thanks for the suggestion! [END]",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "feelings": "I'm glad the recommender suggested \"The Hitchhiker's Guide to the Galaxy.\" It sounds like it has the lighthearted comedy, humorous comedy-drama, and intense drama that I enjoy. I think the recommender did a great job understanding my preferences. I'm excited to watch this movie!"
+      }
+    ],
+    "entity": [
+      "The Hitchhiker's Guide to the Galaxy",
+      "The Great Gatsby"
+    ],
+    "rec": [
+      "The Great Gatsby"
+    ],
+    "resp": "The Great Gatsby is a novel written by Scott Fitzgerald. Were you looking for recommendations for books like it?",
+    "attributes": [
+      "Comedy",
+      "Comedy-drama",
+      "Drama"
+    ],
+    "profile": [
+      "You experience satisfaction when finding recommended movies that align with your personal interests. As a teenager, you derive pleasure from discovering films that cater to your preferences."
+    ]
+  }
+}

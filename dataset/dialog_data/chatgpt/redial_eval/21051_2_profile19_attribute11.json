@@ -1,0 +1,253 @@
+{
+  "dialog_id": "21051",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hello, what are your movie preferences?",
+    "Hello I love action movies. Do you have any good suggestions?"
+  ],
+  "entity": [
+    "action"
+  ],
+  "rec": [
+    "Die Hard (1988)",
+    "The Dark Knight Rises (2012)"
+  ],
+  "resp": "Well, Die Hard (1988) is an absolute classic, but The Dark Knight Rises (2012) is good for a modern one Have you seen either of those?",
+  "template": [
+    "Hello, what are your movie preferences?",
+    "Hello I love <mask> movies. Do you have any good suggestions?",
+    "Well, <mask> is an absolute classic, but <mask> is good for a modern one Have you seen either of those?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21051",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a movie or a genre that you'd like a recommendation for?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm open to any recommendations! I love suspenseful and intense criminal films, emotional and thought-provoking dramas, and intriguing and suspenseful mysteries. If you have any movies in mind that cover those genres, I'd love to hear about them.",
+        "entity": [],
+        "feelings": "I love unexpected movie recommendations that bring excitement to my movie-watching experience. It's always a pleasant surprise to discover new and intriguing films."
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Based on your preferences, I recommend \"The Usual Suspects (1995).\" It's a suspenseful and intense criminal film with a captivating mystery. Enjoy!",
+        "entity": [
+          "The Usual Suspects (1995)"
+        ],
+        "rec_items": [
+          16959,
+          3215,
+          9780,
+          9522,
+          9372,
+          24311,
+          19668,
+          3804,
+          10046,
+          17386,
+          10286,
+          22551,
+          16276,
+          23755,
+          24325,
+          17736,
+          11649,
+          14977,
+          11799,
+          23804,
+          21434,
+          7432,
+          22061,
+          4623,
+          16603,
+          18491,
+          13313,
+          14311,
+          21719,
+          6523,
+          22023,
+          21397,
+          9541,
+          16459,
+          23388,
+          4679,
+          21985,
+          22649,
+          3751,
+          18803,
+          16715,
+          390,
+          19880,
+          16323,
+          11690,
+          13223,
+          12105,
+          2024,
+          22641,
+          24554
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"The Usual Suspects (1995)\"? I'd like to know about the plot and the main characters.",
+        "entity": [
+          "The Usual Suspects (1995)"
+        ],
+        "feelings": "I'm pleasantly surprised by the recommendation. I didn't expect \"The Usual Suspects\" to cover all my preferred genres. I'll ask for more details about the movie before making a decision."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Usual Suspects (1995)\" follows the story of a con artist who is interrogated by the police after a deadly fire on a ship. As he recounts the events leading up to the incident, a complex and suspenseful tale of crime and deception unfolds. The film features an ensemble cast including Kevin Spacey, Gabriel Byrne, and Chazz Palminteri.",
+        "entity": [],
+        "rec_items": [
+          9780,
+          16959,
+          3215,
+          16323,
+          17832,
+          20148,
+          8120,
+          16276,
+          18087,
+          11649,
+          15257,
+          12105,
+          2970,
+          5365,
+          7432,
+          14280,
+          21284,
+          11799,
+          22016,
+          24478,
+          12627,
+          490,
+          23388,
+          22061,
+          7696,
+          21557,
+          6906,
+          14870,
+          9522,
+          4623,
+          21423,
+          18758,
+          23804,
+          24311,
+          22201,
+          11677,
+          24325,
+          5670,
+          4694,
+          18676,
+          6090,
+          3804,
+          9372,
+          24443,
+          21412,
+          14516,
+          22641,
+          14568,
+          16392,
+          22703
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "That sounds really interesting! I appreciate the detailed information. I think I'll accept this recommendation and watch the movie. Thanks for the suggestion! [END]",
+        "entity": [],
+        "feelings": "I'm pleasantly surprised by this unexpected recommendation. \"The Usual Suspects (1995)\" sounds intriguing with its criminal elements and captivating mystery. I'm excited to watch it and see how the story unfolds. The performance of the recommender is great, and I appreciate the detailed information provided. I think I'll accept this recommendation and watch the movie. [END]"
+      }
+    ],
+    "entity": [
+      "action",
+      "The Usual Suspects (1995)"
+    ],
+    "rec": [
+      "Die Hard (1988)",
+      "The Dark Knight Rises (2012)"
+    ],
+    "resp": "Well, Die Hard (1988) is an absolute classic, but The Dark Knight Rises (2012) is good for a modern one Have you seen either of those?",
+    "template": [
+      "Hello, what are your movie preferences?",
+      "Hello I love <mask> movies. Do you have any good suggestions?",
+      "Well, <mask> is an absolute classic, but <mask> is good for a modern one Have you seen either of those?"
+    ],
+    "attributes": [
+      "crime",
+      "drama",
+      "mystery"
+    ],
+    "profile": [
+      "You are pleasantly surprised by unexpected movie recommendations that turn out to be enjoyable. As an adult, you appreciate unexpected suggestions that bring excitement to your movie-watching experience."
+    ]
+  }
+}

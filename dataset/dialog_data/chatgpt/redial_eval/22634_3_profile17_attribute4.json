@@ -1,0 +1,257 @@
+{
+  "dialog_id": "22634",
+  "turn_id": 3,
+  "context": [
+    "hello i need a movie for watch with my family can you help me please",
+    "The Lion King (1994) is a good choice",
+    "good other please"
+  ],
+  "entity": [
+    "family",
+    "The Lion King (1994)"
+  ],
+  "rec": [
+    "The Jungle Book (2016)"
+  ],
+  "resp": "You could try The Jungle Book (2016)",
+  "template": [
+    "hello i need a movie for watch with my <mask> can you help me please",
+    "<mask> is a good choice",
+    "good other please",
+    "You could try <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22634",
+    "turn_id": 3,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific type of movie or genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I love movies that are thrilling, adventurous, and humorous all at the same time. It's always a joy to discover unexpected and delightful film choices. Do you have any recommendations for me?",
+        "entity": [],
+        "feelings": "I love discovering unexpected and delightful film choices. It's always a pleasant surprise to find a movie that combines thrilling action, exciting adventure, and humor. I hope the recommender has some great recommendations for me!"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"The Hitchhiker's Guide to the Galaxy.\" It's a thrilling, adventurous, and humorous movie that offers unexpected and delightful moments.",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "rec_items": [
+          15163,
+          23094,
+          10937,
+          12114,
+          23294,
+          19596,
+          23506,
+          21678,
+          2306,
+          7819,
+          12333,
+          636,
+          1371,
+          13061,
+          2693,
+          16566,
+          18000,
+          15756,
+          13102,
+          14722,
+          13548,
+          23450,
+          12399,
+          13768,
+          11209,
+          7362,
+          24006,
+          17382,
+          16954,
+          9003,
+          23793,
+          16,
+          1572,
+          1572,
+          6591,
+          10091,
+          14821,
+          21731,
+          15051,
+          21362,
+          18900,
+          21245,
+          23569,
+          6277,
+          10961,
+          6699,
+          15383,
+          21739,
+          17677,
+          3804
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds interesting! Can you tell me more about \"The Hitchhiker's Guide to the Galaxy\"? I'd love to know what makes it thrilling and adventurous.",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "feelings": "I love the idea of \"The Hitchhiker's Guide to the Galaxy\" being thrilling, adventurous, and humorous. It sounds like a delightful and unexpected choice. I wonder what makes it thrilling and adventurous. I should ask for more details about this movie."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Hitchhiker's Guide to the Galaxy\" is a science fiction comedy that follows the adventures of an ordinary man who is swept off Earth and into space. It's filled with thrilling and adventurous moments as he encounters bizarre and humorous situations while exploring the universe. The film is known for its quirky humor and unexpected twists, making it a delightful and entertaining watch.",
+        "entity": [],
+        "rec_items": [
+          19596,
+          23294,
+          12399,
+          396,
+          23835,
+          10937,
+          17925,
+          19226,
+          18373,
+          7036,
+          654,
+          15051,
+          14878,
+          24006,
+          18554,
+          18338,
+          11467,
+          8394,
+          1337,
+          15955,
+          24039,
+          12631,
+          15334,
+          23367,
+          10545,
+          15163,
+          19682,
+          14593,
+          6383,
+          12114,
+          16,
+          5885,
+          307,
+          9058,
+          10961,
+          13947,
+          22860,
+          15756,
+          14455,
+          15343,
+          17382,
+          19776,
+          10264,
+          13054,
+          13790,
+          11209,
+          12333,
+          17184,
+          14821,
+          8004
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds like a thrilling and adventurous journey through space! I love the idea of encountering bizarre and humorous situations. It seems like \"The Hitchhiker's Guide to the Galaxy\" has all the elements I enjoy in a movie. I'm definitely up for watching it. [END]",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "feelings": "I love the idea of being swept off Earth into space and encountering bizarre and humorous situations. It sounds like a thrilling and adventurous ride with plenty of unexpected twists. The recommender did a great job understanding my preferences and recommending a movie that seems to cover all the genres I enjoy. I'm excited to watch \"The Hitchhiker's Guide to the Galaxy\"!"
+      }
+    ],
+    "entity": [
+      "family",
+      "The Hitchhiker's Guide to the Galaxy",
+      "The Lion King (1994)"
+    ],
+    "rec": [
+      "The Jungle Book (2016)"
+    ],
+    "resp": "You could try The Jungle Book (2016)",
+    "template": [
+      "hello i need a movie for watch with my <mask> can you help me please",
+      "<mask> is a good choice",
+      "good other please",
+      "You could try <mask>"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "comedy"
+    ],
+    "profile": [
+      "You are pleasantly surprised by unexpected movie recommendations that turn out to be enjoyable. As a child, you find joy in discovering unexpected and delightful film choices."
+    ]
+  }
+}

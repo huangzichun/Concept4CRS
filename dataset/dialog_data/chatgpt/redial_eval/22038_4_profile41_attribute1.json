@@ -1,0 +1,259 @@
+{
+  "dialog_id": "22038",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hi there! How are you?",
+    "I'm well and yourself?",
+    "Doing good. What kind of movies do you like?",
+    "I really like movies like Ferris Bueller's Day Off (1986) I've seen it like ten times!"
+  ],
+  "entity": [
+    "Ferris Bueller's Day Off (1986)"
+  ],
+  "rec": [
+    "License to Drive (1988)"
+  ],
+  "resp": "That is an excellent movie, one of my all-time favorites. How about License to Drive (1988) ? It is a comedy about a kid who gets into messes.",
+  "template": [
+    "Hi there! How are you?",
+    "I'm well and yourself?",
+    "Doing good. What kind of movies do you like?",
+    "I really like movies like <mask> I've seen it like ten times!",
+    "That is an excellent movie, one of my all-time favorites. How about <mask> ? It is a <mask> about a kid who gets into messes."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22038",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! Do you have a preference for a movie genre or a specific movie you'd like a recommendation for?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for an exciting and daring adventure movie, a playful and imaginative animation, or a humorous and entertaining flick. Do you have any recommendations that match my preferences?",
+        "entity": [],
+        "feelings": "I hope the recommended movies match my preferences this time. I always feel disappointed when they don't align with what I want. I really hope this recommender understands what I'm looking for."
+      },
+      {
+        "role": "assistant",
+        "content": "I recommend \"Toy Story (1995)\" for a playful and imaginative animation that is also humorous and entertaining.",
+        "entity": [
+          "Toy Story (1995)"
+        ],
+        "rec_items": [
+          23506,
+          21678,
+          6591,
+          20392,
+          1572,
+          1572,
+          19313,
+          15961,
+          21962,
+          6276,
+          6139,
+          17685,
+          23450,
+          13768,
+          10937,
+          15163,
+          13284,
+          21800,
+          12114,
+          14803,
+          9645,
+          14821,
+          13381,
+          23793,
+          11641,
+          16742,
+          14478,
+          8081,
+          19996,
+          2693,
+          6782,
+          2984,
+          20937,
+          2295,
+          12327,
+          13622,
+          251,
+          315,
+          12145,
+          8520,
+          4612,
+          21562,
+          17437,
+          7819,
+          13548,
+          15627,
+          18373,
+          12370,
+          24006,
+          14722
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"Toy Story (1995)\"? I'd like to know if it's also an exciting and daring adventure movie.",
+        "entity": [
+          "Toy Story (1995)"
+        ],
+        "feelings": "I'm a bit disappointed that the recommended movie is only an animation. I was hoping for a movie that combines exciting adventure, playful animation, and humor. I wish the recommender had understood my preferences better. I'll ask for more recommendations."
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, \"Toy Story (1995)\" is an exciting and daring adventure movie that follows the journey of a group of toys who come to life when their owner is not around. It's filled with playful and imaginative animation, humor, and entertaining adventures.",
+        "entity": [],
+        "rec_items": [
+          21678,
+          20937,
+          13381,
+          3632,
+          18513,
+          9179,
+          1572,
+          1572,
+          23506,
+          15961,
+          15145,
+          15524,
+          149,
+          21962,
+          2295,
+          21491,
+          12327,
+          3548,
+          13253,
+          22762,
+          22074,
+          8081,
+          6591,
+          241,
+          22155,
+          9039,
+          21100,
+          23504,
+          17902,
+          18585,
+          13769,
+          24150,
+          23758,
+          21060,
+          12145,
+          18189,
+          22063,
+          4753,
+          14803,
+          13286,
+          20853,
+          11599,
+          13541,
+          5394,
+          17090,
+          21917,
+          11387,
+          11965,
+          415,
+          2984
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "That sounds awesome! I'm excited to watch \"Toy Story (1995)\"! [END]",
+        "entity": [
+          "Toy Story (1995)"
+        ],
+        "feelings": "I'm glad \"Toy Story (1995)\" seems to cover all the genres I'm looking for. It's an exciting and daring adventure movie with playful and imaginative animation, humor, and entertainment. The recommender did a great job understanding my preferences. I'm excited to watch \"Toy Story (1995)\"! [END]"
+      }
+    ],
+    "entity": [
+      "Toy Story (1995)",
+      "Ferris Bueller's Day Off (1986)"
+    ],
+    "rec": [
+      "License to Drive (1988)"
+    ],
+    "resp": "That is an excellent movie, one of my all-time favorites. How about License to Drive (1988) ? It is a comedy about a kid who gets into messes.",
+    "template": [
+      "Hi there! How are you?",
+      "I'm well and yourself?",
+      "Doing good. What kind of movies do you like?",
+      "I really like movies like <mask> I've seen it like ten times!",
+      "That is an excellent movie, one of my all-time favorites. How about <mask> ? It is a <mask> about a kid who gets into messes."
+    ],
+    "attributes": [
+      "adventure",
+      "animation",
+      "comedy"
+    ],
+    "profile": [
+      "You feel disappointed when the recommended movies do not match your preferences or expectations. As a teenager, you may feel let down when the suggestions don't align with your desires."
+    ]
+  }
+}

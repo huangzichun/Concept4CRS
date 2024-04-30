@@ -1,0 +1,255 @@
+{
+  "dialog_id": "23026",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Good morning! Are you in the mood to see a particular type of movie today?",
+    "Actually, yes! I have been looking for good comedies."
+  ],
+  "entity": [
+    "comedy"
+  ],
+  "rec": [
+    "Ocean's 8 (2018)",
+    "A Fish Called Wanda (1988)"
+  ],
+  "resp": "Great! Are you in the mood for something recent like Ocean's 8 (2018) ? Or maybe something older like A Fish Called Wanda (1988) ? I've heard great things about Ocean's 8 (2018) but I have not seen it yet. However, I really love A Fish Called Wanda (1988) .",
+  "template": [
+    "Good morning! Are you in the mood to see a particular type of movie today?",
+    "Actually, yes! I have been looking for good <mask>.",
+    "Great! Are you in the mood for something recent like <mask> ? Or maybe something older like <mask> ? I've heard great things about <mask> but I have not seen it yet. How<mask>r, I really love <mask> ."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23026",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific type of movie or genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm really into suspenseful and intense criminal films, emotional and thought-provoking dramas, and thrilling thrillers with gripping suspense. I love discovering hidden gems and underrated movies. Do you have any recommendations for me?",
+        "entity": [],
+        "feelings": "I love discovering hidden gems and underrated movies. It's always a delight to stumble upon lesser-known films that bring joy. I hope to find a movie that is suspenseful and intense, emotional and thought-provoking, and also a thrilling thriller with gripping suspense. Let's see what the recommender suggests."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"The Usual Suspects (1995).\" It's a gripping thriller with intense suspense and a clever plot.",
+        "entity": [
+          "The Usual Suspects (1995)"
+        ],
+        "rec_items": [
+          22551,
+          19668,
+          24311,
+          9522,
+          9780,
+          16959,
+          3215,
+          9372,
+          14977,
+          13313,
+          3804,
+          4679,
+          17386,
+          22061,
+          11649,
+          23804,
+          16276,
+          23755,
+          19880,
+          21985,
+          11799,
+          4623,
+          24325,
+          21434,
+          22649,
+          16715,
+          16603,
+          9541,
+          3012,
+          10046,
+          390,
+          17832,
+          21474,
+          15692,
+          10286,
+          2024,
+          3751,
+          21719,
+          14311,
+          21397,
+          3440,
+          24554,
+          22514,
+          16459,
+          7432,
+          23388,
+          2970,
+          14417,
+          17736,
+          12930
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "That sounds intriguing! Can you tell me more about \"The Usual Suspects (1995)\"? I'd love to know if it also has emotional and thought-provoking elements.",
+        "entity": [
+          "The Usual Suspects (1995)"
+        ],
+        "feelings": "I'm excited to learn more about \"The Usual Suspects (1995).\" It sounds like it could be a hidden gem that meets my preferences for a gripping thriller with intense suspense. I wonder if it also has emotional and thought-provoking elements. The recommender seems to understand my taste, so I'm looking forward to finding out more about this movie."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Usual Suspects (1995)\" is a crime thriller that not only has intense suspense and clever plot twists, but also offers emotional and thought-provoking elements. The film's storytelling and character development add depth to the overall experience.",
+        "entity": [],
+        "rec_items": [
+          9780,
+          16959,
+          3215,
+          8120,
+          14870,
+          20148,
+          16276,
+          17832,
+          22061,
+          18087,
+          16323,
+          11799,
+          6090,
+          15257,
+          11649,
+          24311,
+          16392,
+          18676,
+          22016,
+          24478,
+          2970,
+          7696,
+          7875,
+          14280,
+          12105,
+          5365,
+          3924,
+          21284,
+          23804,
+          9372,
+          490,
+          23755,
+          6906,
+          22201,
+          9522,
+          12627,
+          4535,
+          4694,
+          7432,
+          22649,
+          14516,
+          23890,
+          11677,
+          19400,
+          24443,
+          22641,
+          21423,
+          5514,
+          21752,
+          18159
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds fantastic! I'm definitely adding \"The Usual Suspects (1995)\" to my watchlist. It seems to have everything I'm looking for in a movie. Thanks for the recommendation! [END]",
+        "entity": [
+          "The Usual Suspects (1995)"
+        ],
+        "feelings": "I'm excited to learn more about \"The Usual Suspects (1995)\"! It seems to have the suspenseful and intense criminal elements I enjoy, and the fact that it also offers emotional and thought-provoking elements makes it even more appealing. The recommender did a great job understanding my preferences and recommending a movie that aligns with them. I'm looking forward to watching it."
+      }
+    ],
+    "entity": [
+      "The Usual Suspects (1995)",
+      "comedy"
+    ],
+    "rec": [
+      "Ocean's 8 (2018)",
+      "A Fish Called Wanda (1988)"
+    ],
+    "resp": "Great! Are you in the mood for something recent like Ocean's 8 (2018) ? Or maybe something older like A Fish Called Wanda (1988) ? I've heard great things about Ocean's 8 (2018) but I have not seen it yet. However, I really love A Fish Called Wanda (1988) .",
+    "template": [
+      "Good morning! Are you in the mood to see a particular type of movie today?",
+      "Actually, yes! I have been looking for good <mask>.",
+      "Great! Are you in the mood for something recent like <mask> ? Or maybe something older like <mask> ? I've heard great things about <mask> but I have not seen it yet. How<mask>r, I really love <mask> ."
+    ],
+    "attributes": [
+      "crime",
+      "drama",
+      "thriller"
+    ],
+    "profile": [
+      "You experience delight in discovering hidden gems or underrated movies through the recommendations. As a child, you find joy in stumbling upon lesser-known films that bring delight."
+    ]
+  }
+}

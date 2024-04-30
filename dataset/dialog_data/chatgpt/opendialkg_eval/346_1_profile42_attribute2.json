@@ -1,0 +1,242 @@
+{
+  "dialog_id": 346,
+  "turn_id": 1,
+  "context": [
+    "Could you recommend any movies directed by Kathryn Bigelow?"
+  ],
+  "entity": [
+    "Kathryn Bigelow"
+  ],
+  "rec": [
+    "Zero Dark Thirty"
+  ],
+  "resp": "She directed The Hurt Locker, Zero Dark Thirty, and Point Break.",
+  "simulator_dialog": {
+    "dialog_id": 346,
+    "turn_id": 1,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! I'd be happy to help you find a book to read. Do you have a specific genre or author in mind, or are you open to any recommendations?",
+        "entity": [],
+        "rec_items": [
+          8696,
+          12434,
+          11871,
+          12453,
+          11798,
+          12322,
+          11394,
+          10036,
+          8790,
+          12091,
+          9895,
+          9475,
+          10040,
+          8950,
+          12455,
+          10268,
+          12156,
+          10023,
+          9732,
+          9851,
+          9989,
+          202,
+          11841,
+          11770,
+          12087,
+          1030,
+          10126,
+          12102,
+          113,
+          11768,
+          9974,
+          12409,
+          10016,
+          10064,
+          11416,
+          9772,
+          9969,
+          11751,
+          11646,
+          12191,
+          11943,
+          8684,
+          11771,
+          15,
+          3191,
+          9938,
+          11843,
+          10252,
+          12116,
+          9668
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually looking for movie recommendations. I'm into enchanting fantasy, imaginative fiction, mind-bending science fiction, and thought-provoking speculative fiction. Do you have any movies in mind that cover these genres?",
+        "entity": [],
+        "feelings": "I'm excited to discover new movies and can't wait to hear some enjoyable recommendations!"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"Fantastic Beasts and Where to Find Them.\" It's an enchanting fantasy film set in the magical world of Harry Potter, with imaginative creatures and a captivating storyline.",
+        "entity": [
+          "Fantastic Beasts and Where to Find Them"
+        ],
+        "rec_items": [
+          11319,
+          10813,
+          10431,
+          10446,
+          10172,
+          6980,
+          10480,
+          11141,
+          10423,
+          10653,
+          10478,
+          10195,
+          5187,
+          10411,
+          10163,
+          11556,
+          10194,
+          6971,
+          10285,
+          10425,
+          10332,
+          11520,
+          11567,
+          10170,
+          11030,
+          10483,
+          10938,
+          10432,
+          11337,
+          11469,
+          6977,
+          11561,
+          11335,
+          10987,
+          10182,
+          11383,
+          10481,
+          9934,
+          10488,
+          10435,
+          10487,
+          10898,
+          10803,
+          11416,
+          10500,
+          7907,
+          10373,
+          10122,
+          10324,
+          7278
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, \"Fantastic Beasts and Where to Find Them\" sounds intriguing! Can you tell me more about the storyline and the imaginative creatures in the movie?",
+        "entity": [
+          "Fantastic Beasts and Where to Find Them"
+        ],
+        "feelings": "I'm excited to learn more about \"Fantastic Beasts and Where to Find Them.\" It sounds like it could be a perfect match for my preferences. I can't wait to find out more about the enchanting creatures and the captivating storyline."
+      },
+      {
+        "role": "assistant",
+        "content": "\"Fantastic Beasts and Where to Find Them\" follows the adventures of magizoologist Newt Scamander as he navigates the magical world of 1920s New York. The film features a diverse array of imaginative creatures, from the mischievous Niffler to the majestic Thunderbird, each with its own unique abilities and characteristics. The storyline intertwines magic, adventure, and the exploration of the wizarding world, making it a captivating and enchanting experience.",
+        "entity": [],
+        "rec_items": [
+          11319,
+          9779,
+          7278,
+          7255,
+          5187,
+          10239,
+          7421,
+          10500,
+          10499,
+          10268,
+          10498,
+          7254,
+          10229,
+          9372,
+          3276,
+          5186,
+          8263,
+          10501,
+          9375,
+          10813,
+          10898,
+          10881,
+          597,
+          10195,
+          10431,
+          10237,
+          9341,
+          4643,
+          5299,
+          10317,
+          9882,
+          11520,
+          10285,
+          9402,
+          8001,
+          11790,
+          9334,
+          1231,
+          7719,
+          8455,
+          7809,
+          12299,
+          7952,
+          10172,
+          8509,
+          9258,
+          4733,
+          3949,
+          1665,
+          7490
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds amazing! I'm really looking forward to exploring \"Fantastic Beasts and Where to Find Them.\" The magical creatures and the 1920s New York setting seem enchanting and captivating. I'm definitely going to watch it. Thanks for the recommendation! [END]",
+        "entity": [
+          "Fantastic Beasts and Where to Find Them"
+        ],
+        "feelings": "I'm excited about \"Fantastic Beasts and Where to Find Them\"! The magical world of Harry Potter, imaginative creatures, and the 1920s New York setting sound enchanting and captivating. I can't wait to explore this movie! [END]"
+      }
+    ],
+    "entity": [
+      "Kathryn Bigelow",
+      "Fantastic Beasts and Where to Find Them"
+    ],
+    "rec": [
+      "Zero Dark Thirty"
+    ],
+    "resp": "She directed The Hurt Locker, Zero Dark Thirty, and Point Break.",
+    "attributes": [
+      "Fantasy",
+      "Fiction",
+      "Science Fiction",
+      "Speculative fiction"
+    ],
+    "profile": [
+      "You are easily excited, discovering new movies and eagerly anticipating enjoyable recommendations. As an adult, you embrace the thrill of exploring new cinematic adventures."
+    ]
+  }
+}

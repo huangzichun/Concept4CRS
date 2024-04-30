@@ -1,0 +1,253 @@
+{
+  "dialog_id": "20686",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hello",
+    "Hi, I'm looking for horror or thriller movies."
+  ],
+  "entity": [
+    "horror",
+    "thriller"
+  ],
+  "rec": [
+    "Saw (2004)"
+  ],
+  "resp": "Oh great. Did you see any of the Saw (2004) movies?",
+  "template": [
+    "Hello",
+    "Hi, I'm looking for <mask> or<mask>r movies.",
+    "Oh great. Did you see any of the <mask> movies?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20686",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a movie or genre that you'd like a recommendation for?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually looking for a movie that combines thrilling action, exciting adventure, and emotional drama. Do you have any recommendations that fit all these genres?",
+        "entity": [],
+        "feelings": "I enjoy discovering movies that cater to my preferences and align with my personal interests. It's satisfying to find recommended movies that resonate with me. I hope to find a thrilling and adrenaline-pumping action movie, an exciting and daring adventure movie, and an emotional and thought-provoking drama. I'm looking forward to the recommendations."
+      },
+      {
+        "role": "assistant",
+        "content": "I recommend \"Mission: Impossible\" for its thrilling action, exciting adventure, and emotional drama.",
+        "entity": [
+          "Mission: Impossible"
+        ],
+        "rec_items": [
+          2693,
+          21731,
+          13768,
+          3992,
+          17129,
+          15163,
+          13061,
+          23793,
+          17984,
+          18682,
+          18000,
+          2623,
+          15038,
+          6277,
+          19668,
+          18936,
+          17812,
+          19851,
+          14878,
+          14977,
+          12724,
+          23532,
+          21156,
+          18596,
+          10385,
+          13952,
+          2580,
+          10937,
+          23296,
+          8862,
+          24614,
+          2675,
+          18490,
+          10253,
+          6573,
+          10862,
+          14064,
+          467,
+          15879,
+          22958,
+          23094,
+          14076,
+          18754,
+          14901,
+          23737,
+          17746,
+          15399,
+          19540,
+          13996,
+          21245
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"Mission: Impossible\"? I'd like to know about the plot, the main characters, and the overall feel of the movie.",
+        "entity": [
+          "Mission: Impossible"
+        ],
+        "feelings": "I'm glad the recommender suggested \"Mission: Impossible\" as it seems to cover all the genres I'm interested in. I'll ask for more details about the movie to make sure it aligns with my preferences. The recommender seems knowledgeable about movies, so I appreciate the recommendation."
+      },
+      {
+        "role": "assistant",
+        "content": "\"Mission: Impossible\" is a high-octane action film that follows Ethan Hunt, a skilled operative of the IMF (Impossible Missions Force), as he takes on dangerous missions to thwart international threats. The plot is filled with suspense, intricate heists, and unexpected twists. The main characters are portrayed by Tom Cruise, Ving Rhames, and Jon Voight, among others. The movie has a sleek and stylish feel, with intense action sequences and a touch of espionage intrigue.",
+        "entity": [],
+        "rec_items": [
+          21731,
+          17812,
+          18936,
+          10253,
+          16720,
+          19124,
+          21894,
+          11161,
+          5933,
+          16535,
+          17984,
+          2693,
+          14689,
+          17129,
+          12399,
+          8644,
+          24572,
+          12724,
+          17103,
+          8862,
+          15756,
+          19668,
+          5635,
+          14335,
+          9271,
+          21782,
+          24596,
+          24419,
+          4932,
+          2580,
+          4801,
+          15257,
+          7186,
+          9850,
+          21156,
+          19309,
+          15802,
+          3400,
+          24614,
+          21667,
+          6564,
+          6277,
+          24565,
+          14245,
+          507,
+          13717,
+          24571,
+          14558,
+          21299,
+          24467
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, \"Mission: Impossible\" sounds really exciting! The plot with its suspense and unexpected twists seems like it would keep me on the edge of my seat. The main characters also sound intriguing, especially with Tom Cruise in the lead role. The sleek and stylish feel of the movie adds to its appeal. I think I'll go with this recommendation. Thank you! [END]",
+        "entity": [],
+        "feelings": "I appreciate the recommender's effort in suggesting \"Mission: Impossible\" as it seems to have the thrilling action, exciting adventure, and emotional drama that I'm looking for. The plot sounds intriguing, and the main characters seem compelling. I'm intrigued by the sleek and stylish feel of the movie. I think the recommender did a good job in providing detailed information about the movie. I'm glad they understood my preferences and recommended a movie that aligns with them."
+      }
+    ],
+    "entity": [
+      "Mission: Impossible",
+      "horror",
+      "thriller"
+    ],
+    "rec": [
+      "Saw (2004)"
+    ],
+    "resp": "Oh great. Did you see any of the Saw (2004) movies?",
+    "template": [
+      "Hello",
+      "Hi, I'm looking for <mask> or<mask>r movies.",
+      "Oh great. Did you see any of the <mask> movies?"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "drama"
+    ],
+    "profile": [
+      "You experience satisfaction when finding recommended movies that align with your personal interests. As a senior, you derive contentment from discovering films that cater to your preferences."
+    ]
+  }
+}

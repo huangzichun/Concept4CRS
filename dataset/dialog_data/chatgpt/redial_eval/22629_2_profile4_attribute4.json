@@ -1,0 +1,255 @@
+{
+  "dialog_id": "22629",
+  "turn_id": 2,
+  "context": [
+    "",
+    "hello how are you i can help you you need a movie what tipe of movie do you like watch hello",
+    "I'm feeling like something arty. Something socially meaningful. I liked Big Eyes (2014) and A Beautiful Mind (2001) I am fine thanks"
+  ],
+  "entity": [
+    "Big Eyes (2014)",
+    "A Beautiful Mind (2001)"
+  ],
+  "rec": [
+    "Incredibles 2 (2018)"
+  ],
+  "resp": "good fine great Incredibles 2 (2018) is for kids but is very good",
+  "template": [
+    "hello how are you i can help you you need a movie what tipe of movie do you like watch hello",
+    "I'm feeling like something arty. Something socially meaningful. I liked <mask> and <mask> I am fine thanks",
+    "good fine great <mask> is for kids but is very good"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22629",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! Do you have a preference for a movie or a genre that you'd like a recommendation for?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for a movie that's thrilling, adventurous, and funny all at the same time. Do you have any recommendations for me?",
+        "entity": [],
+        "feelings": "I'm starting to trust the recommendations more and more. I'm excited to see what the recommender suggests this time. I hope it's something thrilling, adventurous, and funny all at once. Let's see what they come up with."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"The Hitchhiker's Guide to the Galaxy.\" It's a thrilling and adventurous sci-fi comedy that you might enjoy!",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "rec_items": [
+          23094,
+          12114,
+          10937,
+          15163,
+          23294,
+          19596,
+          24006,
+          15756,
+          2693,
+          6277,
+          13102,
+          13768,
+          21245,
+          18900,
+          13061,
+          2306,
+          12399,
+          16566,
+          23569,
+          15383,
+          21678,
+          21731,
+          16619,
+          11209,
+          654,
+          21274,
+          18373,
+          13548,
+          636,
+          12724,
+          23984,
+          16954,
+          23450,
+          1371,
+          12973,
+          7819,
+          17437,
+          12682,
+          15534,
+          14821,
+          13947,
+          18672,
+          9003,
+          19668,
+          7036,
+          23793,
+          467,
+          17382,
+          18511,
+          14722
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"The Hitchhiker's Guide to the Galaxy\"? I'd like to know how it fits into the thrilling, adventurous, and funny categories.",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "feelings": "I'm not sure if \"The Hitchhiker's Guide to the Galaxy\" covers all the genres I'm looking for. I need more information about it before I can decide. The recommender seems confident about the recommendation, but I'll have to see if it really fits what I'm looking for."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Hitchhiker's Guide to the Galaxy\" is a sci-fi comedy that follows the misadventures of an ordinary human, Arthur Dent, as he is swept off Earth and into the cosmos. It's filled with thrilling and adventurous moments as Arthur encounters bizarre alien cultures and navigates the mysteries of the universe. The movie is also known for its quirky humor and witty dialogue, making it a delightful and funny watch.",
+        "entity": [],
+        "rec_items": [
+          23294,
+          19596,
+          12399,
+          18373,
+          18338,
+          23835,
+          14878,
+          654,
+          17925,
+          396,
+          19226,
+          10937,
+          8394,
+          21534,
+          19776,
+          24006,
+          14455,
+          11467,
+          1337,
+          15955,
+          13061,
+          23367,
+          19682,
+          7036,
+          12631,
+          24039,
+          16302,
+          19121,
+          17184,
+          22860,
+          307,
+          16,
+          15343,
+          16630,
+          15051,
+          21185,
+          8004,
+          6383,
+          14593,
+          10545,
+          18554,
+          5885,
+          23295,
+          15334,
+          18355,
+          13947,
+          17610,
+          13054,
+          9058,
+          9808
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds really interesting! I'd love to watch \"The Hitchhiker's Guide to the Galaxy.\" It seems to have the thrilling, adventurous, and funny elements I'm looking for. [END]",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "feelings": "I think \"The Hitchhiker's Guide to the Galaxy\" sounds like a thrilling and adventurous movie with a touch of humor. I'm intrigued by the idea of an ordinary human navigating through bizarre alien cultures in the cosmos. It seems like it could be a fun and entertaining watch. I'm gaining confidence in the recommendations."
+      }
+    ],
+    "entity": [
+      "A Beautiful Mind (2001)",
+      "Big Eyes (2014)",
+      "The Hitchhiker's Guide to the Galaxy"
+    ],
+    "rec": [
+      "Incredibles 2 (2018)"
+    ],
+    "resp": "good fine great Incredibles 2 (2018) is for kids but is very good",
+    "template": [
+      "hello how are you i can help you you need a movie what tipe of movie do you like watch hello",
+      "I'm feeling like something arty. Something socially meaningful. I liked <mask> and <mask> I am fine thanks",
+      "good fine great <mask> is for kids but is very good"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "comedy"
+    ],
+    "profile": [
+      "You develop trust in the accuracy and relevance of the movie recommendations over time. As a teenager, you gradually gain confidence in the system's suggestions."
+    ]
+  }
+}

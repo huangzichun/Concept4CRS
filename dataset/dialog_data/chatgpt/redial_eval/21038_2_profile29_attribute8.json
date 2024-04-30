@@ -1,0 +1,251 @@
+{
+  "dialog_id": "21038",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hello! What kind of movies do you like?",
+    "Hello I like a good action movie any suggestions?"
+  ],
+  "entity": [
+    "action"
+  ],
+  "rec": [
+    "The Bourne Identity (2002)"
+  ],
+  "resp": "Of course, Have you seen The Bourne Identity (2002) ?",
+  "template": [
+    "Hello! What kind of movies do you like?",
+    "Hello I like a good <mask> movie any suggestions?",
+    "Of course, Have you seen <mask> ?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21038",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a movie or TV show genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm really into thrilling and adrenaline-pumping action movies, exciting and daring adventure movies, and magical and enchanting fantasy movies. I love discovering hidden gems and underrated movies. Do you have any recommendations for me?",
+        "entity": [],
+        "feelings": "I love discovering hidden gems and underrated movies. It's always exciting to stumble upon lesser-known films that bring delight. I hope to find a thrilling and adrenaline-pumping action movie, an exciting and daring adventure movie, and a magical and enchanting fantasy movie. Let's see what the recommender has in store for me!"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"National Treasure\" for its thrilling adventure and hidden gem storyline.",
+        "entity": [
+          "National Treasure"
+        ],
+        "rec_items": [
+          2693,
+          21274,
+          16619,
+          11128,
+          13061,
+          17685,
+          1490,
+          12724,
+          2623,
+          23793,
+          23506,
+          17080,
+          21731,
+          19668,
+          8138,
+          13861,
+          24614,
+          1371,
+          15724,
+          2723,
+          21525,
+          14878,
+          22520,
+          16954,
+          23741,
+          13768,
+          14186,
+          13346,
+          549,
+          14064,
+          5089,
+          18936,
+          10937,
+          16183,
+          10870,
+          8347,
+          467,
+          11337,
+          3992,
+          15627,
+          7128,
+          23697,
+          8862,
+          20354,
+          16428,
+          4920,
+          6277,
+          402,
+          15756,
+          21022
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "That sounds interesting! Could you tell me more about \"National Treasure\"?",
+        "entity": [
+          "National Treasure"
+        ],
+        "feelings": "I'm excited to learn more about \"National Treasure\" and see if it fits my preferences. I hope it's a hidden gem that combines thrilling adventure and excitement. The recommender seems to understand my love for discovering underrated movies, so I appreciate the recommendation."
+      },
+      {
+        "role": "assistant",
+        "content": "\"National Treasure\" is an action-adventure film about a historian and a group of treasure hunters who search for a war chest hidden by the Founding Fathers of the United States. The movie is filled with thrilling action sequences and a captivating storyline.",
+        "entity": [],
+        "rec_items": [
+          21274,
+          16619,
+          2723,
+          4633,
+          23849,
+          9169,
+          8699,
+          14573,
+          11599,
+          17090,
+          647,
+          15627,
+          10818,
+          23122,
+          24419,
+          20617,
+          9588,
+          1526,
+          13081,
+          14803,
+          12628,
+          2223,
+          895,
+          21782,
+          21806,
+          17685,
+          11128,
+          2580,
+          24213,
+          12327,
+          15163,
+          12724,
+          15756,
+          15906,
+          19117,
+          9573,
+          15429,
+          21022,
+          10937,
+          15505,
+          22558,
+          7470,
+          22520,
+          1967,
+          1572,
+          1572,
+          11138,
+          23094,
+          6869,
+          21964
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds like the perfect mix of thrilling action and daring adventure with a historical twist. I'm definitely adding \"National Treasure\" to my watchlist! Thanks for the recommendation! [END]",
+        "entity": [],
+        "feelings": "I love the idea of searching for a hidden treasure tied to the history of the United States. The thrilling action sequences and captivating storyline sound like exactly what I'm looking for. I'm excited to watch \"National Treasure\"! [END]"
+      }
+    ],
+    "entity": [
+      "National Treasure",
+      "action"
+    ],
+    "rec": [
+      "The Bourne Identity (2002)"
+    ],
+    "resp": "Of course, Have you seen The Bourne Identity (2002) ?",
+    "template": [
+      "Hello! What kind of movies do you like?",
+      "Hello I like a good <mask> movie any suggestions?",
+      "Of course, Have you seen <mask> ?"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "profile": [
+      "You experience delight in discovering hidden gems or underrated movies through the recommendations. As a child, you find joy in stumbling upon lesser-known films that bring delight."
+    ]
+  }
+}

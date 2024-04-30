@@ -1,0 +1,255 @@
+{
+  "dialog_id": "21024",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hi",
+    "Hi, what is the best horror zou have seen"
+  ],
+  "entity": [
+    "horror"
+  ],
+  "rec": [
+    "World War Z",
+    "Psycho (1960)"
+  ],
+  "resp": "Whell World War Z or Psycho (1960) are both great movies",
+  "template": [
+    "Hi",
+    "Hi, what is the best <mask> zou have seen",
+    "Whell <mask> or <mask> <mask> both great movies"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21024",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific type of movie or genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I love thrilling and adrenaline-pumping action movies, as well as suspenseful and intense criminal films. I also enjoy suspenseful and thrilling thrillers with gripping suspense. Do you have any recommendations that cover these genres?",
+        "entity": [],
+        "feelings": "I'm feeling excited to discover a new thrilling and suspenseful movie to watch. I hope the recommender can suggest something that will keep me on the edge of my seat. Let's see what they come up with."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"The Chaser (2008)\" for its intense and suspenseful storyline with gripping suspense.",
+        "entity": [
+          "The Chaser (2008)"
+        ],
+        "rec_items": [
+          22551,
+          19668,
+          14977,
+          21156,
+          21434,
+          21731,
+          14335,
+          15257,
+          3804,
+          23388,
+          23094,
+          14351,
+          2988,
+          16715,
+          22102,
+          8644,
+          23139,
+          17386,
+          10258,
+          13223,
+          4623,
+          24311,
+          16459,
+          15399,
+          10599,
+          14179,
+          15756,
+          18936,
+          13850,
+          9522,
+          3012,
+          14114,
+          20364,
+          17878,
+          4902,
+          6884,
+          636,
+          2693,
+          14280,
+          16959,
+          11649,
+          19057,
+          11799,
+          2438,
+          17812,
+          7186,
+          17103,
+          11268,
+          5107,
+          14847
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"The Chaser (2008)\"? I'd like to know about the thrilling action and intense suspense in the movie.",
+        "entity": [
+          "The Chaser (2008)"
+        ],
+        "feelings": "I'm not familiar with \"The Chaser (2008).\" I wonder if it truly captures the thrilling action and intense suspense I'm looking for. The recommender seems confident about this recommendation, but I'll need more details to make sure it aligns with my preferences. I appreciate the effort, but I need to learn more before making a decision."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Chaser (2008)\" is a South Korean action thriller that follows a former detective turned pimp who becomes embroiled in a cat-and-mouse game with a sadistic serial killer. The movie is filled with intense chase sequences, gripping suspense, and adrenaline-pumping action as the protagonist races against time to save the victims and catch the killer. The film's relentless pace and thrilling action will keep you on the edge of your seat throughout.",
+        "entity": [],
+        "rec_items": [
+          14977,
+          4494,
+          8840,
+          24443,
+          10789,
+          10563,
+          9265,
+          13479,
+          2589,
+          21156,
+          11649,
+          22551,
+          396,
+          23519,
+          9601,
+          3440,
+          11007,
+          4623,
+          14335,
+          8587,
+          13081,
+          4679,
+          19668,
+          23749,
+          7875,
+          6906,
+          14280,
+          17765,
+          8138,
+          21985,
+          14114,
+          15257,
+          3063,
+          24325,
+          2442,
+          13223,
+          10259,
+          11558,
+          21065,
+          6523,
+          9522,
+          18087,
+          19309,
+          8242,
+          490,
+          16715,
+          15236,
+          8475,
+          4130,
+          17839
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds like exactly what I'm looking for. I'll definitely watch \"The Chaser (2008)\". Thanks for the recommendation! [END]",
+        "entity": [
+          "The Chaser (2008)"
+        ],
+        "feelings": "I appreciate the recommender's suggestion of \"The Chaser (2008)\" as it seems to have the intense suspense and thrilling action I enjoy. The performance of the recommender is reliable, and I trust their recommendation. I think I'll accept this recommendation. [END]"
+      }
+    ],
+    "entity": [
+      "The Chaser (2008)",
+      "horror"
+    ],
+    "rec": [
+      "World War Z",
+      "Psycho (1960)"
+    ],
+    "resp": "Whell World War Z or Psycho (1960) are both great movies",
+    "template": [
+      "Hi",
+      "Hi, what is the best <mask> zou have seen",
+      "Whell <mask> or <mask> <mask> both great movies"
+    ],
+    "attributes": [
+      "action",
+      "crime",
+      "thriller"
+    ],
+    "profile": [
+      "You develop trust in the accuracy and relevance of the movie recommendations over time. As a senior, you rely on the system's recommendations and trust its reliability."
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "dialog_id": "21497",
+  "turn_id": 5,
+  "context": [
+    "Hello!",
+    "Hello there. Looking for some good movies?",
+    "I am looking for a nice movie to watch tonight alone",
+    "Any specific genre?",
+    "maybe a mystery"
+  ],
+  "entity": [
+    "mystery",
+    "Ste"
+  ],
+  "rec": [
+    "Wind River (2017)"
+  ],
+  "resp": "Wind River (2017) is a great film about a murder investigation",
+  "template": [
+    "Hello!",
+    "Hello there. Looking for some good movies?",
+    "I am looking for a nice movie to watch tonight alone",
+    "Any specific genre?",
+    "maybe a <mask>on>ry",
+    "<mask> is a great film about a murder investigation"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21497",
+    "turn_id": 5,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a movie or TV show genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I love thrilling and adrenaline-pumping action movies, exciting and daring adventure movies, and suspenseful and thrilling thrillers with gripping suspense. Do you have any recommendations for me?",
+        "entity": [],
+        "feelings": "I'm excited to discover new movies and experience thrilling adventures. I can't wait to hear the recommendations!"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"Mission: Impossible\" for its thrilling action and daring adventure.",
+        "entity": [
+          "Mission: Impossible"
+        ],
+        "rec_items": [
+          19668,
+          21731,
+          14977,
+          13061,
+          23094,
+          22551,
+          2693,
+          15756,
+          14878,
+          18936,
+          21156,
+          12724,
+          14335,
+          16566,
+          22576,
+          17812,
+          23793,
+          21274,
+          8644,
+          467,
+          24614,
+          2623,
+          16619,
+          24311,
+          18672,
+          636,
+          2580,
+          15257,
+          10253,
+          549,
+          8862,
+          10152,
+          10046,
+          15399,
+          21241,
+          18900,
+          4623,
+          17103,
+          12973,
+          6277,
+          17386,
+          14114,
+          13850,
+          21293,
+          14280,
+          8138,
+          7186,
+          12350,
+          17984,
+          23139
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"Mission: Impossible\"? I want to know if it has gripping suspense as well.",
+        "entity": [
+          "Mission: Impossible"
+        ],
+        "feelings": "I'm excited to watch \"Mission: Impossible\" for its thrilling action and daring adventure. I hope it has gripping suspense too. The recommender did a good job understanding my preferences. I'm looking forward to experiencing the adrenaline-pumping action and exciting adventure in this movie."
+      },
+      {
+        "role": "assistant",
+        "content": "\"Mission: Impossible\" is a thrilling action film that follows Ethan Hunt and his team as they take on dangerous missions. It's filled with suspenseful moments and gripping plot twists that will keep you on the edge of your seat.",
+        "entity": [],
+        "rec_items": [
+          21731,
+          17812,
+          18936,
+          10253,
+          16720,
+          19124,
+          11161,
+          21894,
+          5933,
+          8644,
+          15756,
+          15257,
+          14280,
+          17103,
+          19309,
+          17984,
+          7186,
+          12724,
+          19668,
+          21299,
+          14689,
+          14335,
+          15530,
+          23068,
+          21156,
+          24596,
+          16535,
+          8862,
+          24419,
+          22175,
+          18672,
+          10173,
+          14847,
+          9573,
+          2693,
+          4070,
+          2580,
+          549,
+          3400,
+          15802,
+          8353,
+          3440,
+          12399,
+          24614,
+          15648,
+          17129,
+          17630,
+          8380,
+          24572,
+          23139
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "That sounds awesome! I'm definitely up for \"Mission: Impossible.\" It seems to have everything I'm looking for in a movie. Can't wait to watch it! [END]",
+        "entity": [
+          "Mission: Impossible"
+        ],
+        "feelings": "I'm excited to watch \"Mission: Impossible\"! It sounds like it has thrilling action, daring adventure, and gripping suspense. I can't wait to experience the adrenaline-pumping moments in this movie. The recommender did a great job understanding my preferences and recommending a movie that fits them perfectly. I'm looking forward to watching it!"
+      }
+    ],
+    "entity": [
+      "mystery",
+      "Mission: Impossible",
+      "Ste"
+    ],
+    "rec": [
+      "Wind River (2017)"
+    ],
+    "resp": "Wind River (2017) is a great film about a murder investigation",
+    "template": [
+      "Hello!",
+      "Hello there. Looking for some good movies?",
+      "I am looking for a nice movie to watch tonight alone",
+      "Any specific genre?",
+      "maybe a <mask>on>ry",
+      "<mask> is a great film about a murder investigation"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "thriller"
+    ],
+    "profile": [
+      "You are filled with anticipation, looking forward to watching recommended movies and experiencing new stories. As a child, you enjoy the excitement of discovering new films."
+    ]
+  }
+}

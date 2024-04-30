@@ -1,0 +1,251 @@
+{
+  "dialog_id": "21239",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hello What's your favorite movie?",
+    "Hello, my favorite movie is Mr. Holland's Opus (1995)"
+  ],
+  "entity": [
+    "Mr. Holland's Opus (1995)"
+  ],
+  "rec": [
+    "The Shawshank Redemption (1994)"
+  ],
+  "resp": "Oh that's wonderful. Have you seen The Shawshank Redemption (1994) or What About Bob%3F (1991) ?",
+  "template": [
+    "Hello What's your favorite movie?",
+    "Hello, my favorite movie is <mask>",
+    "Oh that's wonderful. Have you seen <mask> or <mask> ?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21239",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a movie genre or a specific movie you'd like a recommendation for?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I love a movie that's thrilling and adventurous, with a touch of drama. It's always exciting to discover new and unexpected films. Can you recommend something that fits the bill?",
+        "entity": [],
+        "feelings": "I'm pleasantly surprised by unexpected movie recommendations. It's always exciting to discover new and unexpected films. I hope the recommender suggests something thrilling and adventurous. Let's see what they come up with."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preference for thrilling and adventurous movies with a touch of drama, I recommend \"North by Northwest (1959).\" It's a classic suspenseful film with plenty of adventure and intrigue.",
+        "entity": [
+          "North by Northwest (1959)"
+        ],
+        "rec_items": [
+          15163,
+          23094,
+          13061,
+          10937,
+          15756,
+          2306,
+          12399,
+          21731,
+          23737,
+          16566,
+          6564,
+          2693,
+          5689,
+          19668,
+          11066,
+          18000,
+          636,
+          10336,
+          22551,
+          16619,
+          19277,
+          6277,
+          23793,
+          22527,
+          14064,
+          16015,
+          21274,
+          16210,
+          18511,
+          3804,
+          2024,
+          9950,
+          18936,
+          22211,
+          12724,
+          18900,
+          11686,
+          15759,
+          12930,
+          17812,
+          15961,
+          21156,
+          24568,
+          13548,
+          2438,
+          8587,
+          15627,
+          4540,
+          12114,
+          9522
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"North by Northwest (1959)\"? I'd like to know about the thrilling and adventurous elements, as well as the touch of drama in the movie.",
+        "entity": [
+          "North by Northwest (1959)"
+        ],
+        "feelings": "I'm pleasantly surprised by the recommendation, but I need to know more about \"North by Northwest (1959)\" before deciding if it fits my preferences. The recommender seems knowledgeable, but I'll reserve judgment until I have more details."
+      },
+      {
+        "role": "assistant",
+        "content": "\"North by Northwest (1959)\" is a thrilling and adventurous film directed by Alfred Hitchcock. It follows the story of a man mistaken for a government agent and caught up in a web of espionage, leading to a cross-country chase and a dramatic climax on Mount Rushmore. The movie is filled with suspense, action-packed sequences, and unexpected twists, all while incorporating elements of drama and romance. It's a captivating blend of adventure and intrigue that keeps viewers on the edge of their seats.",
+        "entity": [],
+        "rec_items": [
+          15756,
+          19506,
+          12417,
+          13104,
+          11066,
+          22250,
+          13922,
+          6277,
+          22382,
+          490,
+          23325,
+          21964,
+          19621,
+          12822,
+          23810,
+          2833,
+          18908,
+          5020,
+          17652,
+          24210,
+          24311,
+          10629,
+          13680,
+          23755,
+          11677,
+          382,
+          9573,
+          10336,
+          23094,
+          23454,
+          16566,
+          9143,
+          17186,
+          23068,
+          21820,
+          3837,
+          12114,
+          3668,
+          5098,
+          13717,
+          16715,
+          16798,
+          12865,
+          22018,
+          14689,
+          20162,
+          19632,
+          21218,
+          6201,
+          14117
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, \"North by Northwest (1959)\" sounds really intriguing! I love the idea of a mistaken identity leading to a cross-country chase and a dramatic climax on Mount Rushmore. The blend of suspense, action, and drama seems like a perfect fit for what I'm looking for. I'll definitely watch it. Thank you! [END]",
+        "entity": [],
+        "feelings": "I'm pleasantly surprised by this recommendation. The thrilling and adventurous elements, along with the touch of drama, seem to be exactly what I'm looking for. The recommender did a great job understanding my preferences and suggesting a movie that fits the bill. I'm excited to watch \"North by Northwest (1959)\"!"
+      }
+    ],
+    "entity": [
+      "Mr. Holland's Opus (1995)",
+      "North by Northwest (1959)"
+    ],
+    "rec": [
+      "The Shawshank Redemption (1994)"
+    ],
+    "resp": "Oh that's wonderful. Have you seen The Shawshank Redemption (1994) or What About Bob%3F (1991) ?",
+    "template": [
+      "Hello What's your favorite movie?",
+      "Hello, my favorite movie is <mask>",
+      "Oh that's wonderful. Have you seen <mask> or <mask> ?"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "drama"
+    ],
+    "profile": [
+      "You are pleasantly surprised by unexpected movie recommendations that turn out to be enjoyable. As a senior, you find delight in discovering new and unexpected films."
+    ]
+  }
+}

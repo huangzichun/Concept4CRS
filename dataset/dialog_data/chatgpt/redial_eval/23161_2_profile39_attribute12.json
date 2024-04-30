@@ -1,0 +1,257 @@
+{
+  "dialog_id": "23161",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hi.Have a good day?",
+    "Hi!! Can you recommend me some movie?? I like movies like The Purge (2013)"
+  ],
+  "entity": [
+    "The Purge (2013)"
+  ],
+  "rec": [
+    "Breaking In (2018)",
+    "Panic Room (2002)",
+    "A Quiet Place (2018)"
+  ],
+  "resp": "Breaking In (2018) might interest you. And Panic Room (2002) A Quiet Place (2018) is suspenseful without being gory",
+  "template": [
+    "Hi.Have a good day?",
+    "Hi!! Can you recommend me some movie?? I like movies like <mask>",
+    "<mask> might interest you. And <mask> <mask> is suspenseful without being gory"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23161",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific type of movie or genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for a movie that combines thrilling action, exciting adventure, and playful animation. Do you have any recommendations in mind?",
+        "entity": [],
+        "feelings": "I enjoy discovering hidden gems or underrated movies that bring joy. I hope to find a thrilling action movie, an exciting adventure movie, and a playful animation. Let's see what the recommender suggests."
+      },
+      {
+        "role": "assistant",
+        "content": "I recommend \"Kubo and the Two Strings (2016)\" for its thrilling action, exciting adventure, and playful animation.",
+        "entity": [
+          "Kubo and the Two Strings (2016)"
+        ],
+        "rec_items": [
+          2693,
+          21678,
+          13768,
+          15961,
+          21562,
+          14803,
+          6591,
+          5394,
+          23506,
+          13346,
+          19313,
+          16742,
+          17685,
+          21962,
+          19996,
+          23793,
+          1572,
+          1572,
+          18672,
+          6276,
+          13381,
+          20392,
+          4753,
+          20937,
+          23296,
+          6139,
+          2984,
+          15145,
+          5053,
+          12158,
+          467,
+          8862,
+          24614,
+          17902,
+          12114,
+          18596,
+          21731,
+          4932,
+          5089,
+          23218,
+          14478,
+          9271,
+          22657,
+          13134,
+          11786,
+          15617,
+          10937,
+          21245,
+          2623,
+          23474
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"Kubo and the Two Strings (2016)\"? I'd like to know about the thrilling action, exciting adventure, and playful animation in the movie.",
+        "entity": [
+          "Kubo and the Two Strings (2016)"
+        ],
+        "feelings": "I'm excited to learn more about \"Kubo and the Two Strings (2016)\" and see if it meets my preferences for thrilling action, exciting adventure, and playful animation. The recommender seems knowledgeable, but I'll have to gather more details before making a decision."
+      },
+      {
+        "role": "assistant",
+        "content": "\"Kubo and the Two Strings (2016)\" is a stop-motion animated film that combines thrilling action with exciting adventure as the young protagonist, Kubo, embarks on a quest to find a magical suit of armor. The movie features visually stunning and playful animation, bringing the story to life in a captivating way.",
+        "entity": [],
+        "rec_items": [
+          21562,
+          14478,
+          13430,
+          4753,
+          20824,
+          15914,
+          6638,
+          17984,
+          12966,
+          5695,
+          22135,
+          315,
+          20922,
+          1886,
+          21962,
+          9709,
+          16246,
+          10116,
+          11324,
+          9197,
+          12158,
+          7477,
+          6276,
+          13016,
+          16472,
+          9185,
+          8969,
+          21311,
+          5806,
+          20630,
+          23474,
+          14803,
+          5053,
+          6591,
+          8781,
+          1225,
+          10235,
+          21327,
+          3992,
+          23756,
+          5970,
+          19996,
+          3053,
+          23280,
+          17279,
+          14251,
+          17685,
+          21074,
+          15088,
+          22958
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "That sounds fantastic! I love the idea of a young hero on a quest with thrilling action, exciting adventure, and playful animation. I'm definitely going to watch \"Kubo and the Two Strings (2016)\". Thanks for the recommendation! [END]",
+        "entity": [
+          "Kubo and the Two Strings (2016)"
+        ],
+        "feelings": "I appreciate the recommender's effort in suggesting \"Kubo and the Two Strings (2016)\" as it seems to have the thrilling action, exciting adventure, and playful animation I'm looking for. I'm excited to watch it! [END]"
+      }
+    ],
+    "entity": [
+      "Kubo and the Two Strings (2016)",
+      "The Purge (2013)"
+    ],
+    "rec": [
+      "Breaking In (2018)",
+      "Panic Room (2002)",
+      "A Quiet Place (2018)"
+    ],
+    "resp": "Breaking In (2018) might interest you. And Panic Room (2002) A Quiet Place (2018) is suspenseful without being gory",
+    "template": [
+      "Hi.Have a good day?",
+      "Hi!! Can you recommend me some movie?? I like movies like <mask>",
+      "<mask> might interest you. And <mask> <mask> is suspenseful without being gory"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "animation"
+    ],
+    "profile": [
+      "You experience delight in discovering hidden gems or underrated movies through the recommendations. As an adult, you appreciate uncovering lesser-known films that bring joy."
+    ]
+  }
+}

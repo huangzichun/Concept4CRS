@@ -1,0 +1,255 @@
+{
+  "dialog_id": "20501",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hello What kind of movies do you like?",
+    "what ever hello i'm open to any movie i just watched Black Panther (2018) and i loved it is very interesting actually"
+  ],
+  "entity": [
+    "Eve",
+    "Black Panther (2018)"
+  ],
+  "rec": [
+    "Avengers: Infinity War (2018)"
+  ],
+  "resp": "Have you seen Avengers: Infinity War (2018)",
+  "template": [
+    "Hello What kind of movies do you like?",
+    "what <mask>r hello i'm open to any movie i just watched <mask> and i loved it is very interesting actually",
+    "Have you seen <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20501",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! Do you have a preference for a movie or TV show that you'd like a recommendation for?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for a thrilling and adrenaline-pumping action movie, an exciting and daring adventure movie, and a magical and enchanting fantasy movie all in one. Do you have any recommendations for me?",
+        "entity": [],
+        "feelings": "I'm excited to discover new movies and eagerly anticipate enjoyable recommendations. I can't wait to explore new cinematic adventures!"
+      },
+      {
+        "role": "assistant",
+        "content": "I recommend \"The Sorcerer's Apprentice (2010)\" for a thrilling and adrenaline-pumping action movie with a magical and enchanting fantasy twist. Enjoy the exciting adventure!",
+        "entity": [
+          "The Sorcerer's Apprentice (2010)"
+        ],
+        "rec_items": [
+          17685,
+          2693,
+          1490,
+          11128,
+          23793,
+          6277,
+          23506,
+          2623,
+          13768,
+          15724,
+          21731,
+          21274,
+          16183,
+          13102,
+          13861,
+          20354,
+          17080,
+          16954,
+          21525,
+          16619,
+          24432,
+          14064,
+          4932,
+          10937,
+          17103,
+          16428,
+          8138,
+          4920,
+          3242,
+          9876,
+          18936,
+          24614,
+          15627,
+          2580,
+          18672,
+          1365,
+          13346,
+          18490,
+          12724,
+          21349,
+          19668,
+          21144,
+          549,
+          16460,
+          11786,
+          22520,
+          17129,
+          18865,
+          13396,
+          23450
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds interesting! Can you tell me more about \"The Sorcerer's Apprentice (2010)\"? I'd love to know about the thrilling action, exciting adventure, and magical fantasy elements in the movie.",
+        "entity": [
+          "The Sorcerer's Apprentice (2010)"
+        ],
+        "feelings": "I'm excited to learn more about \"The Sorcerer's Apprentice (2010)\"! I hope it meets all my preferences. The recommender seems to understand what I'm looking for, but I need to find out more about the movie before making a decision."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Sorcerer's Apprentice (2010)\" is a thrilling action-adventure film with magical fantasy elements. It follows the story of a young sorcerer's apprentice who is trained by a powerful sorcerer to combat dark forces in modern-day Manhattan. The movie features exhilarating action sequences, daring adventures, and enchanting magical elements that will keep you on the edge of your seat. It's a perfect blend of excitement and fantasy!",
+        "entity": [],
+        "rec_items": [
+          17685,
+          15724,
+          23506,
+          24432,
+          22281,
+          11128,
+          21144,
+          8929,
+          13396,
+          13147,
+          7021,
+          23741,
+          2693,
+          22575,
+          18622,
+          2102,
+          21525,
+          10870,
+          1225,
+          4750,
+          6615,
+          23697,
+          889,
+          22558,
+          6959,
+          13290,
+          5928,
+          5928,
+          18865,
+          16258,
+          8138,
+          14064,
+          16428,
+          7128,
+          13410,
+          17504,
+          12869,
+          4524,
+          21022,
+          11146,
+          2370,
+          3242,
+          3423,
+          17686,
+          19759,
+          17421,
+          16460,
+          19550,
+          22520,
+          17103
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, this movie sounds like it has everything I'm looking for! The thrilling action, daring adventure, and magical fantasy elements all seem to be perfectly combined in \"The Sorcerer's Apprentice (2010).\" I can't wait to watch it! [END]",
+        "entity": [
+          "The Sorcerer's Apprentice (2010)"
+        ],
+        "feelings": "Wow, this movie sounds like it has everything I'm looking for! The thrilling action, daring adventure, and magical fantasy elements all seem to be perfectly combined in \"The Sorcerer's Apprentice (2010).\" I can't wait to watch it! [END]"
+      }
+    ],
+    "entity": [
+      "Black Panther (2018)",
+      "Eve",
+      "The Sorcerer's Apprentice (2010)"
+    ],
+    "rec": [
+      "Avengers: Infinity War (2018)"
+    ],
+    "resp": "Have you seen Avengers: Infinity War (2018)",
+    "template": [
+      "Hello What kind of movies do you like?",
+      "what <mask>r hello i'm open to any movie i just watched <mask> and i loved it is very interesting actually",
+      "Have you seen <mask>"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "profile": [
+      "You are easily excited, discovering new movies and eagerly anticipating enjoyable recommendations. As an adult, you embrace the thrill of exploring new cinematic adventures."
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "dialog_id": 1123,
+  "turn_id": 1,
+  "context": [
+    "Do you have any information about Dan Scanlon the Director?"
+  ],
+  "entity": [
+    "Dan Scanlon"
+  ],
+  "rec": [
+    "Monsters University"
+  ],
+  "resp": "He wrote Monsters University and worked in Cars. Do you like Animation movies>",
+  "simulator_dialog": {
+    "dialog_id": 1123,
+    "turn_id": 1,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific genre or type of book?",
+        "entity": [],
+        "rec_items": [
+          8696,
+          12434,
+          11871,
+          12453,
+          11798,
+          12322,
+          11394,
+          10036,
+          8790,
+          12091,
+          9895,
+          9475,
+          10040,
+          8950,
+          12455,
+          10268,
+          12156,
+          10023,
+          9732,
+          9851,
+          9989,
+          202,
+          11841,
+          11770,
+          12087,
+          1030,
+          10126,
+          12102,
+          113,
+          11768,
+          9974,
+          12409,
+          10016,
+          10064,
+          11416,
+          9772,
+          9969,
+          11751,
+          11646,
+          12191,
+          11943,
+          8684,
+          11771,
+          15,
+          3191,
+          9938,
+          11843,
+          10252,
+          12116,
+          9668
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for a movie that's lighthearted, humorous, and intense at the same time. Do you have any recommendations?",
+        "entity": [],
+        "feelings": "I'm excited to see what movies the recommender will suggest based on my preferences. I hope they recommend something that's lighthearted, humorous, and intense at the same time. Let's see what they come up with!"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"The Hitchhiker's Guide to the Galaxy.\" It's a lighthearted and humorous movie with some intense and adventurous moments.",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "rec_items": [
+          10431,
+          6977,
+          10487,
+          9954,
+          11270,
+          12117,
+          6980,
+          12322,
+          11126,
+          10386,
+          11510,
+          10653,
+          10446,
+          10494,
+          10938,
+          10813,
+          11359,
+          11079,
+          12164,
+          9721,
+          10172,
+          11351,
+          10016,
+          10488,
+          10423,
+          11366,
+          10384,
+          11363,
+          9687,
+          9712,
+          10480,
+          11561,
+          11548,
+          10923,
+          7939,
+          10408,
+          11520,
+          11571,
+          9851,
+          10332,
+          6578,
+          10788,
+          10399,
+          11515,
+          11516,
+          12010,
+          687,
+          12191,
+          1704,
+          10396
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"The Hitchhiker's Guide to the Galaxy\"? I'd like to know if it really covers all the genres I'm looking for.",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "feelings": "I wonder if \"The Hitchhiker's Guide to the Galaxy\" really covers all the genres I'm looking for. I should ask for more details about the movie to make sure. The recommender seems knowledgeable, but I need to know more about the movie before deciding."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Hitchhiker's Guide to the Galaxy\" is a science fiction comedy film based on the novel by Douglas Adams. It follows the misadventures of an ordinary human, Arthur Dent, as he is swept off Earth by his alien friend Ford Prefect just before the planet's destruction. The movie is known for its lighthearted humor, quirky characters, and adventurous journey through space. It definitely covers the lighthearted, humorous, and intense elements you're looking for.",
+        "entity": [],
+        "rec_items": [
+          6977,
+          4731,
+          9788,
+          12325,
+          10386,
+          11920,
+          9712,
+          10431,
+          9377,
+          9307,
+          10332,
+          8169,
+          10919,
+          9354,
+          10446,
+          196,
+          9706,
+          10414,
+          7288,
+          9373,
+          6484,
+          9378,
+          7502,
+          235,
+          11335,
+          9375,
+          9357,
+          10766,
+          5396,
+          11268,
+          10316,
+          10746,
+          8155,
+          11124,
+          11362,
+          8469,
+          9720,
+          10334,
+          9322,
+          1704,
+          4082,
+          8190,
+          3879,
+          9717,
+          10494,
+          10110,
+          9212,
+          10182,
+          10107,
+          1473
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds really interesting! I love the idea of an adventurous journey through space. I'm definitely intrigued by \"The Hitchhiker's Guide to the Galaxy.\" It seems to have the lighthearted humor and intense elements I'm looking for. I think I'll accept this recommendation. [END]",
+        "entity": [
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "feelings": "I'm excited to learn more about \"The Hitchhiker's Guide to the Galaxy.\" It sounds like it has the lighthearted humor and adventurous elements I enjoy. I hope it also has the right balance of intense drama. The recommender seems knowledgeable and helpful in providing details about the movie. I appreciate their insights."
+      }
+    ],
+    "entity": [
+      "The Hitchhiker's Guide to the Galaxy",
+      "Dan Scanlon"
+    ],
+    "rec": [
+      "Monsters University"
+    ],
+    "resp": "He wrote Monsters University and worked in Cars. Do you like Animation movies>",
+    "attributes": [
+      "Comedy",
+      "Comedy-drama",
+      "Drama"
+    ],
+    "profile": [
+      "You are curious about what movies will be suggested based on your personal preferences. As a teenager, you have a sense of wonder and anticipation regarding the recommendations."
+    ]
+  }
+}

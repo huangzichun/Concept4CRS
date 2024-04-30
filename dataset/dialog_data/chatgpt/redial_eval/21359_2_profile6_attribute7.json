@@ -1,0 +1,257 @@
+{
+  "dialog_id": "21359",
+  "turn_id": 2,
+  "context": [
+    "",
+    "hello how are you",
+    "Hello! I love I Saw the Devil (2010) , what can you recommend? I'm great"
+  ],
+  "entity": [
+    "I Saw the Devil (2010)"
+  ],
+  "rec": [
+    "Gone Girl (2014)",
+    "Shutter Island (2010)",
+    "The Sixth Sense (1999)"
+  ],
+  "resp": "i'm not familiar with that movie, but i think you'd enjoy Gone Girl (2014), Shutter Island (2010) and The Sixth Sense (1999)",
+  "template": [
+    "hello how are you",
+    "Hello! I love <mask> , what can you recommend? I'm great",
+    "i'm not familiar with that movie, but i think you'd enjoy <mask>, <mask> and <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21359",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! Do you have a preference for a movie or a genre that you'd like a recommendation for?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm open to any recommendations! I'm looking for a movie that combines suspenseful and intense criminal elements with emotional and thought-provoking drama, as well as a thrilling thriller with gripping suspense.",
+        "entity": [],
+        "feelings": "I enjoy unexpected movie recommendations that turn out to be enjoyable. It's always a pleasant surprise to discover new and unexpected films. I hope to find a movie that combines suspenseful and intense criminal elements with emotional and thought-provoking drama, as well as a thrilling thriller with gripping suspense. Let's see what the recommender suggests."
+      },
+      {
+        "role": "assistant",
+        "content": "I recommend \"L.A. Confidential (1997)\" for its intense criminal elements, emotional drama, and gripping suspense. It's a thrilling crime film that will keep you on the edge of your seat!",
+        "entity": [
+          "L.A. Confidential (1997)"
+        ],
+        "rec_items": [
+          19668,
+          16959,
+          9522,
+          22551,
+          3215,
+          9780,
+          17386,
+          21434,
+          9372,
+          24311,
+          23804,
+          10286,
+          14977,
+          4679,
+          11649,
+          3804,
+          21985,
+          11799,
+          16276,
+          21397,
+          4623,
+          19880,
+          13313,
+          16459,
+          390,
+          14311,
+          10046,
+          17736,
+          22102,
+          22649,
+          9541,
+          7432,
+          16603,
+          6523,
+          22061,
+          23755,
+          2438,
+          16715,
+          2024,
+          22514,
+          24325,
+          18803,
+          11690,
+          10873,
+          12930,
+          18758,
+          8120,
+          1205,
+          24554,
+          16323
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds intriguing! Can you tell me more about \"L.A. Confidential (1997)\"? What's the storyline and the main focus of the movie?",
+        "entity": [
+          "L.A. Confidential (1997)"
+        ],
+        "feelings": "I'm pleasantly surprised by this recommendation. I'm not familiar with \"L.A. Confidential (1997),\" but it sounds like it could be a perfect match for my preferences. I'll ask for more details about the movie."
+      },
+      {
+        "role": "assistant",
+        "content": "\"L.A. Confidential (1997)\" is a neo-noir crime film set in 1950s Los Angeles. It follows three detectives as they investigate a series of murders and uncover corruption within the police force and the city. The movie delves into themes of power, betrayal, and morality, while also exploring the personal struggles of the characters. It's a gripping and complex story that will keep you engaged from start to finish.",
+        "entity": [],
+        "rec_items": [
+          3215,
+          16959,
+          9541,
+          22551,
+          13113,
+          22514,
+          7432,
+          6090,
+          11649,
+          12139,
+          10700,
+          21810,
+          23388,
+          20210,
+          10593,
+          10873,
+          6906,
+          17599,
+          10995,
+          10629,
+          17832,
+          22016,
+          21397,
+          2970,
+          16392,
+          9473,
+          17545,
+          6396,
+          6523,
+          14568,
+          3689,
+          1205,
+          9780,
+          22641,
+          11659,
+          10259,
+          23426,
+          11947,
+          7253,
+          13184,
+          9372,
+          7982,
+          17386,
+          9683,
+          3950,
+          24325,
+          12463,
+          8120,
+          6931,
+          8764
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Wow, \"L.A. Confidential (1997)\" sounds like a perfect match for what I'm looking for. I'm excited to watch it. Thank you for the recommendation! [END]",
+        "entity": [
+          "L.A. Confidential (1997)"
+        ],
+        "feelings": "I'm pleasantly surprised by this recommendation. \"L.A. Confidential (1997)\" seems to have the intense criminal elements, emotional drama, and gripping suspense that I enjoy. The recommender has done a great job understanding my preferences and suggesting a movie that aligns with them. I'm looking forward to watching it."
+      }
+    ],
+    "entity": [
+      "I Saw the Devil (2010)",
+      "L.A. Confidential (1997)"
+    ],
+    "rec": [
+      "Gone Girl (2014)",
+      "Shutter Island (2010)",
+      "The Sixth Sense (1999)"
+    ],
+    "resp": "i'm not familiar with that movie, but i think you'd enjoy Gone Girl (2014), Shutter Island (2010) and The Sixth Sense (1999)",
+    "template": [
+      "hello how are you",
+      "Hello! I love <mask> , what can you recommend? I'm great",
+      "i'm not familiar with that movie, but i think you'd enjoy <mask>, <mask> and <mask>"
+    ],
+    "attributes": [
+      "crime",
+      "drama",
+      "thriller"
+    ],
+    "profile": [
+      "You are pleasantly surprised by unexpected movie recommendations that turn out to be enjoyable. As a senior, you find delight in discovering new and unexpected films."
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "dialog_id": "22949",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hi. Do anything fun this weekend?",
+    "hey how are you? trying to find a movie I like action movies any suggestions?",
+    "I hear Solo: A Star Wars Story (2018) is good",
+    "haven't seen it. I love star wars ok"
+  ],
+  "entity": [
+    "action",
+    "Solo: A Star Wars Story (2018)",
+    "war"
+  ],
+  "rec": [
+    "Avengers: Infinity War (2018)"
+  ],
+  "resp": "It's the back story of the Hans Solo character. What about Avengers: Infinity War (2018)",
+  "template": [
+    "Hi. Do anything fun this weekend?",
+    "hey how are you? trying to find a movie I like <mask> movies any suggestions?",
+    "I hear <mask> is good",
+    "haven't seen it. I love star <mask>s ok",
+    "It's the back story of the Hans Solo character. What about <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22949",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific type of movie or genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I love discovering hidden gems and underrated movies that are both humorous and entertaining, emotional and thought-provoking, and heartwarming and wholesome. I hope to find a movie that combines all these elements. Let's see what you suggest.",
+        "entity": [],
+        "feelings": "I love discovering hidden gems and underrated movies that are both humorous and entertaining, emotional and thought-provoking, and heartwarming and wholesome. I hope to find a movie that combines all these elements. Let's see what the recommender suggests."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"Good Will Hunting (1997).\" It's a heartfelt and thought-provoking movie with humor, emotion, and depth. Enjoy!",
+        "entity": [
+          "Good Will Hunting (1997)"
+        ],
+        "rec_items": [
+          14722,
+          6699,
+          10091,
+          23506,
+          18159,
+          4085,
+          18000,
+          22077,
+          12552,
+          1893,
+          7362,
+          16197,
+          17581,
+          21678,
+          17555,
+          24591,
+          20321,
+          1572,
+          1572,
+          1021,
+          6139,
+          20389,
+          22209,
+          3927,
+          16809,
+          11319,
+          82,
+          18959,
+          23407,
+          14129,
+          24272,
+          20317,
+          24534,
+          9211,
+          6591,
+          15163,
+          5059,
+          22697,
+          17896,
+          23050,
+          8086,
+          17382,
+          4454,
+          11128,
+          18240,
+          23450,
+          10215,
+          10264,
+          22991,
+          16619
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"Good Will Hunting (1997)\"? I'd like to know how it combines humor, emotion, and depth before I make a decision.",
+        "entity": [
+          "Good Will Hunting (1997)"
+        ],
+        "feelings": "I'm not sure if \"Good Will Hunting\" covers all the genres I'm looking for. I need to ask for more details about this movie."
+      },
+      {
+        "role": "assistant",
+        "content": "\"Good Will Hunting\" is a compelling drama about a young janitor at MIT who has an extraordinary gift for mathematics. The movie combines humor through the witty and sharp dialogue, emotion through the characters' personal struggles, and depth through the exploration of identity and potential. It's a touching and thought-provoking film that balances these elements beautifully.",
+        "entity": [],
+        "rec_items": [
+          18159,
+          5528,
+          21803,
+          1893,
+          6514,
+          16809,
+          16959,
+          16810,
+          13648,
+          17143,
+          3640,
+          5759,
+          17435,
+          17925,
+          11993,
+          24478,
+          18872,
+          23374,
+          21292,
+          22899,
+          15769,
+          12192,
+          11517,
+          19992,
+          11347,
+          24302,
+          11191,
+          14722,
+          16666,
+          18615,
+          16392,
+          6699,
+          13859,
+          13203,
+          24119,
+          19882,
+          15497,
+          189,
+          18240,
+          13209,
+          18366,
+          3738,
+          23808,
+          24004,
+          21554,
+          22991,
+          13003,
+          13472,
+          10753,
+          19331
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds like a perfect match for what I'm looking for. I'll definitely watch \"Good Will Hunting (1997)\"! Thanks for the recommendation! [END]",
+        "entity": [
+          "Good Will Hunting (1997)"
+        ],
+        "feelings": "I love how \"Good Will Hunting\" combines humor, emotion, and depth through its witty dialogue, personal struggles, and exploration of identity. It seems to meet all my preferences. The recommender did a great job understanding what I was looking for. I'm impressed!"
+      }
+    ],
+    "entity": [
+      "Solo: A Star Wars Story (2018)",
+      "Good Will Hunting (1997)",
+      "action",
+      "war"
+    ],
+    "rec": [
+      "Avengers: Infinity War (2018)"
+    ],
+    "resp": "It's the back story of the Hans Solo character. What about Avengers: Infinity War (2018)",
+    "template": [
+      "Hi. Do anything fun this weekend?",
+      "hey how are you? trying to find a movie I like <mask> movies any suggestions?",
+      "I hear <mask> is good",
+      "haven't seen it. I love star <mask>s ok",
+      "It's the back story of the Hans Solo character. What about <mask>"
+    ],
+    "attributes": [
+      "comedy",
+      "drama",
+      "family"
+    ],
+    "profile": [
+      "You experience delight in discovering hidden gems or underrated movies through the recommendations. As a child, you find joy in stumbling upon lesser-known films that bring delight."
+    ]
+  }
+}

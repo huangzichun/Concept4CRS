@@ -1,0 +1,263 @@
+{
+  "dialog_id": "20301",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hey how are you?",
+    "Hi! How are you today?",
+    "I'm great thanks, What kind of movies do you like?",
+    "I am hoping you can help me find a movie about gangsters, like Casino (1995) . I love that movie. I also really like Goodfellas (1990) . Anything related to the mob interests me."
+  ],
+  "entity": [
+    "Ste",
+    "Casino (1995)",
+    "Goodfellas (1990)"
+  ],
+  "rec": [
+    "American Gangster (2007)"
+  ],
+  "resp": "They are great movies, have you seen American Gangster (2007)",
+  "template": [
+    "Hey how are you?",
+    "Hi! How are you today?",
+    "I'm great thanks, What kind of movies do you like?",
+    "I am hoping you can help me find a movie about gang<mask>rs, like <mask> . I love that movie. I also really like <mask> . Anything related to the mob interests me.",
+    "They are great movies, have you seen <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20301",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a movie or TV show genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for a movie that's thrilling and adventurous, maybe with some animation too. Do you have any recommendations?",
+        "entity": [],
+        "feelings": "I'm not sure what movie I want to watch. I hope the recommender can suggest something good. I just want to watch something thrilling and adventurous, maybe with some animation too. I hope they understand what I'm looking for."
+      },
+      {
+        "role": "assistant",
+        "content": "I recommend \"The Adventures of Tintin (2011)\" for a thrilling and adventurous animated movie!",
+        "entity": [
+          "The Adventures of Tintin (2011)"
+        ],
+        "rec_items": [
+          15961,
+          13346,
+          21678,
+          2693,
+          14803,
+          21962,
+          13768,
+          13061,
+          23793,
+          23506,
+          19996,
+          17902,
+          21562,
+          6591,
+          10937,
+          15163,
+          1572,
+          1572,
+          9039,
+          16742,
+          5053,
+          6139,
+          4637,
+          12327,
+          5928,
+          5928,
+          23094,
+          4753,
+          6062,
+          17685,
+          21800,
+          6942,
+          7295,
+          8781,
+          15145,
+          15734,
+          22657,
+          3548,
+          23296,
+          16954,
+          12370,
+          12158,
+          19313,
+          13381,
+          20392,
+          17495,
+          20937,
+          18189,
+          23474,
+          2984
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"The Adventures of Tintin (2011)\"? I want to know what the movie is about and if it really fits my preferences.",
+        "entity": [
+          "The Adventures of Tintin (2011)"
+        ],
+        "feelings": "I'm frustrated with the technical issues, but I'm excited to hear about this movie. I hope it meets all my preferences. The recommender seems knowledgeable, but I need more details about the movie to decide."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Adventures of Tintin (2011)\" is a thrilling animated adventure film based on the popular comic book series. It follows the young reporter Tintin, his loyal dog Snowy, and the drunken Captain Haddock as they embark on a treasure hunt and face danger at every turn. The movie is filled with action, mystery, and stunning animation, making it a perfect fit for your preference for thrilling and adventurous animated films.",
+        "entity": [],
+        "rec_items": [
+          14803,
+          10937,
+          6027,
+          16742,
+          15961,
+          19313,
+          1193,
+          12327,
+          6276,
+          2984,
+          17902,
+          23756,
+          14922,
+          23122,
+          14285,
+          21562,
+          5806,
+          17090,
+          1572,
+          1572,
+          23506,
+          9338,
+          15051,
+          11599,
+          7036,
+          21491,
+          15095,
+          8069,
+          21678,
+          4753,
+          13002,
+          8943,
+          13208,
+          20132,
+          13381,
+          22837,
+          16888,
+          9039,
+          21274,
+          17685,
+          13284,
+          23793,
+          18263,
+          16619,
+          4633,
+          9645,
+          1967,
+          18189,
+          13346,
+          12370
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "That sounds awesome! I'm really into thrilling and adventurous animated movies, so \"The Adventures of Tintin (2011)\" seems like a perfect fit for me. I'll definitely check it out. Thanks for the recommendation! [END]",
+        "entity": [
+          "The Adventures of Tintin (2011)"
+        ],
+        "feelings": "I'm frustrated with the technical issues, but \"The Adventures of Tintin (2011)\" sounds like a thrilling and adventurous animated movie. I'm excited to watch it!"
+      }
+    ],
+    "entity": [
+      "Casino (1995)",
+      "The Adventures of Tintin (2011)",
+      "Goodfellas (1990)",
+      "Ste"
+    ],
+    "rec": [
+      "American Gangster (2007)"
+    ],
+    "resp": "They are great movies, have you seen American Gangster (2007)",
+    "template": [
+      "Hey how are you?",
+      "Hi! How are you today?",
+      "I'm great thanks, What kind of movies do you like?",
+      "I am hoping you can help me find a movie about gang<mask>rs, like <mask> . I love that movie. I also really like <mask> . Anything related to the mob interests me.",
+      "They are great movies, have you seen <mask>"
+    ],
+    "attributes": [
+      "action",
+      "adventure",
+      "animation"
+    ],
+    "profile": [
+      "You feel frustrated when dealing with technical issues or difficulties in navigating the recommendation system. As a teenager, you may encounter challenges in using the system effectively."
+    ]
+  }
+}

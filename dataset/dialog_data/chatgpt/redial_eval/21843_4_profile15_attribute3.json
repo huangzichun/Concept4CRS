@@ -1,0 +1,263 @@
+{
+  "dialog_id": "21843",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hey! How are ya?",
+    "hi, i am good thanks for asking how are you?",
+    "I'm great, thanks!",
+    "I enjoy movies like Dumb and Dumber (1994) and Van Wilder (2002)"
+  ],
+  "entity": [
+    "Dumb and Dumber (1994)",
+    "Van Wilder (2002)"
+  ],
+  "rec": [
+    "Road Trip (2000)",
+    "Bio-Dome (1996)"
+  ],
+  "resp": "Have you seen Road Trip (2000) or Bio-Dome (1996) ? Those are both pretty funny",
+  "template": [
+    "Hey! How are ya?",
+    "hi, i am good thanks for asking how are you?",
+    "I'm great, thanks!",
+    "I enjoy movies like <mask> and <mask>",
+    "Have you seen <mask> or <mask> ? Those are both pretty funny"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21843",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific type of movie or genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for a movie that combines thrilling action, intense crime, and emotional drama. Do you have any recommendations in mind?",
+        "entity": [],
+        "feelings": "I enjoy discovering hidden gems and underrated movies. It's always a delight to stumble upon overlooked cinematic treasures. I hope to find a thrilling and adrenaline-pumping action movie, a suspenseful and intense criminal film, and an emotional and thought-provoking drama. Let's see what the recommender suggests."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"L.A. Confidential (1997).\" It combines thrilling action, intense crime, and emotional drama.",
+        "entity": [
+          "L.A. Confidential (1997)"
+        ],
+        "rec_items": [
+          19668,
+          9522,
+          16959,
+          14977,
+          3215,
+          16459,
+          6053,
+          22102,
+          21434,
+          22551,
+          2438,
+          17386,
+          13850,
+          10599,
+          21731,
+          11515,
+          14335,
+          22066,
+          15257,
+          14179,
+          6884,
+          2024,
+          3804,
+          22758,
+          4623,
+          11649,
+          8242,
+          23139,
+          2970,
+          13887,
+          16358,
+          100,
+          2681,
+          19540,
+          17751,
+          10286,
+          19057,
+          10259,
+          6523,
+          15399,
+          15879,
+          10369,
+          18000,
+          12930,
+          17878,
+          21156,
+          23388,
+          1391,
+          13952,
+          16285
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"L.A. Confidential (1997)\"? I'd like to know about the plot, the main characters, and the overall feel of the movie.",
+        "entity": [
+          "L.A. Confidential (1997)"
+        ],
+        "feelings": "I'm intrigued by \"L.A. Confidential (1997)\" as it seems to cover the thrilling action, intense crime, and emotional drama I'm looking for. I wonder if the recommender has more details about this movie. The recommender seems knowledgeable and has a good understanding of my preferences. I appreciate the recommendation and look forward to learning more about the movie."
+      },
+      {
+        "role": "assistant",
+        "content": "\"L.A. Confidential (1997)\" is a neo-noir crime film set in 1950s Los Angeles. It follows three very different police officers as they investigate a series of murders and corruption within the force. The main characters are played by Kevin Spacey, Russell Crowe, and Guy Pearce. The movie has a dark and gritty feel, with a complex and engaging plot that keeps you on the edge of your seat.",
+        "entity": [],
+        "rec_items": [
+          3215,
+          16959,
+          15257,
+          9541,
+          7432,
+          6090,
+          23388,
+          10700,
+          13113,
+          10593,
+          21810,
+          11649,
+          22514,
+          10259,
+          17545,
+          20210,
+          22551,
+          2970,
+          11515,
+          17832,
+          6906,
+          12139,
+          10995,
+          6523,
+          17599,
+          5947,
+          10873,
+          13300,
+          16887,
+          10629,
+          13966,
+          12463,
+          3950,
+          13965,
+          16392,
+          17594,
+          3907,
+          22016,
+          18908,
+          22641,
+          14490,
+          6396,
+          11970,
+          23723,
+          3689,
+          21423,
+          11677,
+          17386,
+          11659,
+          636
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "That sounds like a perfect match for what I'm looking for. I'll definitely watch \"L.A. Confidential (1997)\". Thanks for the recommendation! [END]",
+        "entity": [
+          "L.A. Confidential (1997)"
+        ],
+        "feelings": "I appreciate the recommender's suggestion, but \"L.A. Confidential (1997)\" seems to perfectly match my preferred genres of thrilling action, intense crime, and emotional drama. I think I'll accept this recommendation. [END]"
+      }
+    ],
+    "entity": [
+      "Van Wilder (2002)",
+      "Dumb and Dumber (1994)",
+      "L.A. Confidential (1997)"
+    ],
+    "rec": [
+      "Road Trip (2000)",
+      "Bio-Dome (1996)"
+    ],
+    "resp": "Have you seen Road Trip (2000) or Bio-Dome (1996) ? Those are both pretty funny",
+    "template": [
+      "Hey! How are ya?",
+      "hi, i am good thanks for asking how are you?",
+      "I'm great, thanks!",
+      "I enjoy movies like <mask> and <mask>",
+      "Have you seen <mask> or <mask> ? Those are both pretty funny"
+    ],
+    "attributes": [
+      "action",
+      "crime",
+      "drama"
+    ],
+    "profile": [
+      "You experience delight in discovering hidden gems or underrated movies through the recommendations. As a senior, you appreciate stumbling upon overlooked cinematic treasures."
+    ]
+  }
+}

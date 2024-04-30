@@ -1,0 +1,261 @@
+{
+  "dialog_id": "21954",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Wassup mate?",
+    "Hi. How are you? I would like to watch a musical movie. I liked Mamma Mia! (2008) . Can you recommend me something like this> Did you watch it?"
+  ],
+  "entity": [
+    "musical",
+    "music",
+    "Mamma Mia! (2008)"
+  ],
+  "rec": [
+    "The Greatest Showman (2017)",
+    "Hairspray (2007)",
+    "Grease (1978)"
+  ],
+  "resp": "I heard good things about The Greatest Showman (2017) I saw Mama Mia just for the songs, it was pretty good Oh my god I love Hairspray (2007) and who can forget Grease (1978)",
+  "template": [
+    "Wassup mate?",
+    "Hi. How are you? I would like to watch a <mask>e> movie. I liked <mask> . Can you recommend me something like this> Did you watch it?",
+    "I heard good things about <mask> I saw Mama Mia just for the songs, it was pretty good Oh my god I love <mask> and who can forget <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21954",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi there! Do you have a preference for a specific type of movie or genre?",
+        "entity": [],
+        "rec_items": [
+          13869,
+          6782,
+          10046,
+          17946,
+          5754,
+          4393,
+          17034,
+          14297,
+          13062,
+          5295,
+          20657,
+          2712,
+          13061,
+          24534,
+          7558,
+          16577,
+          498,
+          16034,
+          19529,
+          19827,
+          19339,
+          16448,
+          19436,
+          23188,
+          21803,
+          12022,
+          16053,
+          19615,
+          13768,
+          6766,
+          13286,
+          20426,
+          4790,
+          7821,
+          19776,
+          17320,
+          13263,
+          11988,
+          12723,
+          21269,
+          23702,
+          23015,
+          7564,
+          2019,
+          2755,
+          2675,
+          13747,
+          10536,
+          18338,
+          2360
+        ],
+        "rec_success_dialogue": false,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "I love movies that are suspenseful and emotional. I'm always up for a good mystery too. Do you have any recommendations for a movie that combines all these elements?",
+        "entity": [],
+        "feelings": "I'm excited to see what movie recommendations I'll get today. I hope I can find something that's both suspenseful and emotional. Let's see what the recommender suggests."
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your preferences, I recommend \"The Usual Suspects (1995)\" for its suspenseful and emotional storyline with a captivating mystery.",
+        "entity": [
+          "The Usual Suspects (1995)"
+        ],
+        "rec_items": [
+          24311,
+          9780,
+          22061,
+          23755,
+          10046,
+          13313,
+          13171,
+          19668,
+          3804,
+          15756,
+          18000,
+          9372,
+          19170,
+          16959,
+          12621,
+          4130,
+          18221,
+          3215,
+          22241,
+          586,
+          17034,
+          14417,
+          18785,
+          3012,
+          23692,
+          8138,
+          9522,
+          18491,
+          18159,
+          6615,
+          10163,
+          15692,
+          16323,
+          10668,
+          23094,
+          7362,
+          17736,
+          17839,
+          15163,
+          17386,
+          14280,
+          11686,
+          7982,
+          5059,
+          21362,
+          11649,
+          16459,
+          4085,
+          22132,
+          11799
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": false
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me more about \"The Usual Suspects (1995)\"? I'd like to know about the storyline and how it combines suspense, emotion, and mystery.",
+        "entity": [
+          "The Usual Suspects (1995)"
+        ],
+        "feelings": "I'm not sure if \"The Usual Suspects\" covers all the genres I'm looking for. I need to ask for more details about the movie before making a decision. The recommender seems knowledgeable, but I'll have to see if this movie fits my preferences."
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Usual Suspects (1995)\" is a gripping crime thriller about a group of criminals who are brought together for a heist and become embroiled in a complex web of deception and mystery. The film is known for its intense suspense, emotional depth, and a mind-bending mystery that keeps viewers on the edge of their seats. It's a must-see for anyone who loves a compelling and twist-filled storyline.",
+        "entity": [],
+        "rec_items": [
+          9780,
+          16959,
+          3215,
+          14870,
+          20148,
+          16323,
+          16276,
+          22061,
+          8120,
+          18087,
+          24311,
+          5365,
+          15257,
+          17832,
+          22016,
+          2970,
+          9372,
+          14280,
+          21557,
+          23755,
+          11649,
+          7696,
+          18676,
+          4535,
+          6090,
+          490,
+          18159,
+          5670,
+          22201,
+          11677,
+          24443,
+          11799,
+          7875,
+          6906,
+          1824,
+          5514,
+          23804,
+          12627,
+          7432,
+          21284,
+          14114,
+          3924,
+          19400,
+          10668,
+          4623,
+          24478,
+          24325,
+          16392,
+          19247,
+          14516
+        ],
+        "rec_success_dialogue": true,
+        "rec_success_rec": true
+      },
+      {
+        "role": "user",
+        "content": "That sounds really intriguing! I'd love to watch \"The Usual Suspects (1995)\" to see how it all unfolds. Thanks for the recommendation! [END]",
+        "entity": [
+          "The Usual Suspects (1995)"
+        ],
+        "feelings": "I like the sound of \"The Usual Suspects (1995)\" - it seems to have the suspenseful criminal elements, emotional depth, and a captivating mystery that I enjoy. The recommender did a great job understanding my preferences and recommending a movie that seems to fit them well. I'm looking forward to watching it."
+      }
+    ],
+    "entity": [
+      "Mamma Mia! (2008)",
+      "musical",
+      "music",
+      "The Usual Suspects (1995)"
+    ],
+    "rec": [
+      "The Greatest Showman (2017)",
+      "Hairspray (2007)",
+      "Grease (1978)"
+    ],
+    "resp": "I heard good things about The Greatest Showman (2017) I saw Mama Mia just for the songs, it was pretty good Oh my god I love Hairspray (2007) and who can forget Grease (1978)",
+    "template": [
+      "Wassup mate?",
+      "Hi. How are you? I would like to watch a <mask>e> movie. I liked <mask> . Can you recommend me something like this> Did you watch it?",
+      "I heard good things about <mask> I saw Mama Mia just for the songs, it was pretty good Oh my god I love <mask> and who can forget <mask>"
+    ],
+    "attributes": [
+      "crime",
+      "drama",
+      "mystery"
+    ],
+    "profile": [
+      "You develop trust in the accuracy and relevance of the movie recommendations over time. As a child, you gradually gain confidence in the system's ability to suggest suitable films."
+    ]
+  }
+}
