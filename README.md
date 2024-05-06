@@ -15,7 +15,7 @@
 
 ## File Information
 1. The folder `dataset/dialog_data` contains conversation data of 4 off-the-shelf CRS models (i.e., KBRD, BARCOR, UNICRS, CHATCRS). Each conversation data is in json format. Additionally, our data metadata is based on [This Git Repository](https://github.com/txy77/iEvaLM-CRS)
-2. The folder `code` contains the code of **Concept** (i.e., the user-CRS interaction and the evaluation). 
+2. The folder `code` contains the code of **Concept** (i.e., the user-CRS interaction and the evaluation). The code is also based on [This Git Repository](https://github.com/txy77/iEvaLM-CRS)
 
 # Reference
 If you make advantage of the **Concept** in your research, please cite the following in your manuscript:
