@@ -17,6 +17,51 @@
 1. The folder `dataset/dialog_data` contains conversation data of 4 off-the-shelf CRS models (i.e., KBRD, BARCOR, UNICRS, CHATCRS). Each conversation data is in json format. Additionally, our data metadata is based on [This Git Repository](https://github.com/txy77/iEvaLM-CRS)
 2. The folder `code` contains the code of **Concept** (i.e., the user-CRS interaction and the evaluation). The code is also based on [This Git Repository](https://github.com/txy77/iEvaLM-CRS)
 
+## Startup
+Detailed instruction can be found at [This Git Repository](https://github.com/txy77/iEvaLM-CRS), including required python packages and CRS models
+
+## Conversation Data Format
+Each conversation data is in json format. Additionally, our data metadata is based on [This Git Repository](https://github.com/txy77/iEvaLM-CRS).
+```json
+{
+  "dialog_id": {ID},
+  "turn_id": {number of turns},
+  "simulator_dialog": {
+    "context": [  # conversation data
+      {
+        "role": "user",
+        "content": {utterence from user}
+      },
+      {
+        "role": "assistant",
+        "content": {response from CRS model},
+        "rec_items": {list of recommended items from recommendation system},
+        "rec_success_dialogue": {if "rec_items" contains user-preferred movies},
+        "rec_success_rec": {if the CRS response contains any user-preferred movies}
+      },
+      {
+        "role": "user",
+        "content": {utterence from user},
+        "feelings": {ToM response from user},
+      },
+      {
+        "role": "assistant",
+        "content": {response from CRS model},
+        "rec_items": {list of recommended items from recommendation system},
+        "rec_success_dialogue": {if "rec_items" contains user-preferred movies},
+        "rec_success_rec": {if the CRS response contains any user-preferred movies}
+      },
+
+      ....
+
+    ],
+    "attributes": {list of user preferred movie genre},
+    "profile": {description on user profile, e.g., age and preference}
+  }
+}
+```
+Note that fields in the JSON data not mentioned above were not used in our experiments or user simulations.
+
 # Reference
 If you make advantage of the **Concept** in your research, please cite the following in your manuscript:
 
