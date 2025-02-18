@@ -1,6 +1,8 @@
 # CONCEPT – An Evaluation Protocol on Conversation Recommender Systems with System-centric and User-centric Factors
 > **Contact**: Chen Huang (Sichuan University)
 
+![main](./main.png)
+
 - We propose an comprehesive conversational recommender system (CRS) evaluation protocol, called **Concept**. It considers both system- and user-centric factors and conceptualizes them into three characteristics, which are further divided into six primary abilities. 
 
 - We have released the dataset, created by utilizing **Concept**, publicly to aid the research community in making advancements in CRS. A total of 6720 conversation data is recorded to collect the interactions between off-the-shelf CRS and simulated users who demonstrate different personas and preferences. 
@@ -61,6 +63,10 @@ Each conversation data is in json format. Additionally, our data metadata is bas
 }
 ```
 Note that fields in the JSON data not mentioned above were not used in our experiments or user simulations.
+
+# Summary
+![main](./main2.png)
+![main](./main3.png)
 
 # Reference
 If you make advantage of the **Concept** in your research, please cite the following in your manuscript:
